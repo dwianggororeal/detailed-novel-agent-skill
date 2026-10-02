@@ -1,34 +1,31 @@
-# Indeks Dokumentasi & Framework Skill
+# Logline Skill Framework Index (Slowburn Micro-Outlines)
 
-Folder ini berisi seluruh rancangan framework, evaluasi, dan modul audit untuk pembuatan novel / logline slowburn.
+This directory contains the complete framework, standard rules, and audit protocols for generating **Micro-Loglines** (50 to 100+ beats per chapter) with standardized mood tokens, anti-AI slop rules, and narrative continuity checks.
 
 ---
 
-## 📚 Daftar Dokumen
+## 📚 Documents in this Directory
 
 1. **[LOGLINE_SYSTEM.md](./LOGLINE_SYSTEM.md)**
-   - Standar format logline per-beat.
-   - 8 Token Variabel Mood Baku (`CALM`, `WARMTH`, `UNEASE`, `TENSE`, `PANIC`, `RELIEF`, `MELANCHOLY`, `TRIUMPH`).
-   - Aturan Diksi & Anti-AI Slop.
-   - Audit Anomali Emosi (*Sandwich Anomaly & Unearned Leaps*).
+   - Format standards for 1-sentence action beats.
+   - 8 Standardized Mood Tokens (`CALM`, `WARMTH`, `UNEASE`, `TENSE`, `PANIC`, `RELIEF`, `MELANCHOLY`, `TRIUMPH`).
+   - Anti-AI Slop & Plain Language Rules.
+   - Mood Anomaly Audits (*Sandwich Anomaly & Unearned Leaps*).
 
 2. **[OUTLINE_AND_DIRECTION_AUDIT.md](./OUTLINE_AND_DIRECTION_AUDIT.md)**
-   - Audit kesesuaian logline terhadap **Macro Outline & Chapter Direction**.
-   - Format standar input tujuan & milestones bab.
-   - 4 Pilar Audit: Milestone Coverage, Plot Drift / Anti-Aimless Filler, Proporsi Pacing, dan Ending Hook Alignment.
+   - Alignment audit ensuring loglines follow **Macro Outline & Chapter Directions**.
+   - 4 Audit Pillars: Milestone Coverage, Plot Drift & Anti-Aimless Filler, Pacing Proportion, and Ending Hook Alignment.
 
 3. **[CHARACTER_AND_LORE_AUDIT.md](./CHARACTER_AND_LORE_AUDIT.md)**
-   - Protokol verifikasi terhadap Character Bible & Lore Bible (dokumen eksternal).
-   - Aturan perubahan karakter yang sah (*Justified Progression*).
-   - 5 Syarat Mutlak penambahan karakter bernama baru (Wajib tanya user, kontribusi nyata, min. 5x muncul, non-verbal sah, utamakan kedalaman).
-   - Format standar pengajuan karakter baru.
+   - External verification protocol against Character and Lore Bibles.
+   - Justified character progression rules (anti-OOC).
+   - 5 Mandatory Rules for Adding Named Characters (Ask user first, min. 5 appearances, non-verbal allowed, depth over quantity).
 
 4. **[SKILL_EVALUATION_GUIDE.md](./SKILL_EVALUATION_GUIDE.md)**
-   - Panduan metrik evaluasi skill (5 dimensi penilaian).
-   - Standar kelulusan dan alur pengujian pre-deployment.
+   - 5-Dimension Skill Evaluation Rubric.
 
 5. **[SKILL_TEMPLATE.md](./SKILL_TEMPLATE.md)**
-   - Kerangka dasar (*boilerplate*) file `SKILL.md` standar Antigravity.
+   - Boilerplate structure for Antigravity skills.
 
 6. **[SKILL_TEST_CASES_AND_BENCHMARKS.md](./SKILL_TEST_CASES_AND_BENCHMARKS.md)**
-   - Lembar kerja pengujian skenario pemicu (*Positive/Negative Tests*), *edge cases*, dan *Scorecard*.
+   - Positive/Negative trigger test cases and evaluation scorecard.

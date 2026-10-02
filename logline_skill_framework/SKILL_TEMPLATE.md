@@ -1,69 +1,59 @@
 ---
-name: nama-skill-kustom
+name: custom-skill-name
 description: >-
-  [WAJIB DIISI DENGAN JELAS] Jelaskan secara spesifik kapan agent HARUS menggunakan skill ini
-  dan kapan TIDAK BOLEH menggunakannya. Gunakan sudut pandang orang ketiga.
-  Contoh: "Gunakan skill ini ketika user meminta pembuatan sistem quest RPG berbasis Luau di Roblox,
-  atau pembuatan skrip dialog interaktif. Jangan gunakan untuk script UI umum."
+  [MANDATORY] Clearly describe when the agent MUST use this skill and when it
+  MUST NOT be used. Use third-person perspective.
+  Example: "Use this skill when the user asks to generate slowburn narrative loglines or structure RPG world rules."
 ---
 
-# [Nama Skill]
+# [Custom Skill Name]
 
-Ringkasan 1-2 paragraf mengenai tujuan utama dan kapabilitas yang disediakan oleh skill ini.
+Summary of the core capabilities and workflows provided by this skill.
 
 ---
 
 ## 1. Prerequisites & Environment Setup
 
-Sebelum menjalankan skill ini, pastikan prasyarat berikut terpenuhi:
-- Tools/Dependencies yang dibutuhkan: `[Sebutkan tool, misal: Python 3, Rojo, Luau CLI]`
-- File atau direktori konfigurasi yang harus dicek terlebih dahulu.
+- Required tools / dependencies: `[List tools]`
+- Configuration files or directories to verify.
 
 ---
 
-## 2. Core Workflow (Langkah Eksekusi)
+## 2. Core Workflow (Execution Steps)
 
-Ikuti langkah-langkah berikut secara berurutan:
+### Step 1: Preparation & Input Validation
+- Validate user arguments.
+- Read referenced guides:
+  - Deep guide: [detailed_rules.md](./references/detailed_rules.md)
+  - Implementation examples: [standard_example.md](./resources/standard_example.md)
 
-### Langkah 1: Persiapan & Validasi Input
-- Validasi parameter atau konteks yang diberikan oleh user.
-- Jika ada file referensi tambahan, baca melalui:
-  - Dokumentasi mendalam: [detailed_rules.md](./references/detailed_rules.md)
-  - Contoh implementasi: [standard_example.md](./examples/standard_example.md)
-
-### Langkah 2: Eksekusi Utama
-1. Jalankan helper script jika ada:
+### Step 2: Main Execution
+1. Execute helper scripts if present:
    ```bash
    python ./scripts/helper.py --arg value
    ```
-2. Tulis/modifikasi file yang ditargetkan dengan mengikuti pola desain yang telah ditentukan.
+2. Write or modify target files adhering to design specifications.
 
-### Langkah 3: Verifikasi & Self-Check
-- Periksa hasil eksekusi:
-  - Pastikan tidak ada syntax error / linting error.
-  - Verifikasi output sesuai format yang diharapkan user.
-  - Lakukan unit check / assertion test.
+### Step 3: Self-Check & Verification
+- Verify output validity, syntax checks, and linter constraints.
 
 ---
 
 ## 3. Strict Rules & Constraints (DOs & DON'Ts)
 
-### DO (Wajib Dilakukan):
-- [Aturan wajib 1]
-- [Aturan wajib 2]
-- [Aturan wajib 3]
+### DO:
+- [Rule 1]
+- [Rule 2]
 
-### DON'T (Dilarang Keras):
-- [Larangan 1 - misal: Jangan hardcode path tanpa validasi]
-- [Larangan 2 - misal: Jangan ubah file original tanpa konfirmasi/duplikasi]
-- [Larangan 3 - misal: Jangan gunakan placeholder]
+### DON'T:
+- [Constraint 1]
+- [Constraint 2]
 
 ---
 
 ## 4. Error Handling & Fallbacks
 
-| Kondisi Error / Hambatan | Tindakan Pemulihan (Recovery Action) |
+| Error Condition | Recovery Action |
 | :--- | :--- |
-| **Tool / Command Gagal** | [Langkah perbaikan atau pesan klarifikasi ke user] |
-| **Input Tidak Lengkap** | [Tanyakan klarifikasi spesifik sebelum mengambil asumsi] |
-| **Konflik File / Dependency** | [Langkah fallback atau alternatif non-destruktif] |
+| **Tool / Command Failure** | [Recovery step or clarification request] |
+| **Ambiguous / Missing Input** | [Ask targeted multi-choice questions] |

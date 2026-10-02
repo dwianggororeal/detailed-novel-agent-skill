@@ -1,69 +1,69 @@
-# Template Resmi Character Bible (Master Branding & Karakterisasi)
+# Official Character Bible Template (Master Branding & Profiling)
 
-Dokumen ini adalah template resmi untuk menyusun profil karakter dengan parameter **branding kuat**, keterikatan psikologis, dan keselarasan penuh terhadap **Lore Bible**.
-
----
-
-# [NAMA KARAKTER / NAMA PANGGILAN]
-
-**Ringkasan Branding (Archetype/Peran):** *[1 kalimat definisi peran karakter, misal: Sang Pengelana Sunyi yang Membawa Beban Masa Lalu]*
+This document is the official template for building character profiles across the **6 Core Branding Pillars**, psychological anchors, and full compatibility with the **Lore Bible**.
 
 ---
 
-## 1. Profil Dasar & Identitas
+# [CHARACTER FULL NAME / ALIAS]
 
-- **Nama Lengkap & Alias/Julukan:** `[Nama Resmi & Panggilan]`
-- **Usia & Ras/Spesies:** `[Harus selaras dengan Bestiary / Ras di Lore Bible]`
-- **Asal Daerah / Faksi:** `[Harus selaras dengan Geografi / Faksi di Lore Bible]`
-- **Afinitas Kekuatan / Keahlian:** `[Sesuai sistem kekuatan di Lore Bible, lengkap dengan batasannya]`
+**Branding Tagline (Archetype / Role):** *[1 sentence summarizing character identity, e.g., The Reluctant Wanderer Carrying the Weight of Fallen Kin]*
 
 ---
 
-## 2. 6 Pilar Branding Karakter Super-Kuat (Core Iconic Parameters)
+## 1. Basic Identity & Origins
 
-### 💬 1. Iconic Phrases / Lines (Gaya Tutur & Frasa Khas)
-- **Gaya Bicara:** `[Laconik, sinis halus, formal berjarak, ramah ceplas-ceplos, atau non-verbal/geraman/dengusan]`
-- **Frasa Khas (Maks 1-2 baris, Anti-Cringe):** `[Kalimat yang keluar secara organik pada momen krusial, bukan dipaksakan setiap menit]`
-- **Nada Saat Emosional:** `[Bagaimana suaranya berubah saat marah, tertekan, atau panik]`
+- **Full Name & Nicknames:** `[Official Name & Street Alias]`
+- **Age & Species/Race:** `[Must align with Bestiary / Races in the Lore Bible]`
+- **Region of Origin / Faction:** `[Must align with Geography / Factions in the Lore Bible]`
+- **Combat / Magic Affinity:** `[Must adhere to World Rules magic limitations & physical costs]`
 
-### 🎭 2. Iconic Behaviour & Micro-Habits (Kebiasaan Fisik Khas)
-- **Gestur Bawah Sadar saat Berpikir/Gelisah:** `[Misal: Memutar cincin di jempol, merapikan sarung tangan, mengusap bekas luka di pelipis]`
-- **Kebiasaan dalam Interaksi:** `[Selalu berdiri membelakangi dinding, enggan kontak mata langsung, selalu mencicipi minuman sebelum meneguk]`
-- **Pola Tidur / Waktu Luang:** `[Cara mereka bersantai atau beristirahat]`
+---
+
+## 2. The 6 Core Branding Pillars (Iconic Parameters)
+
+### 💬 1. Iconic Phrases / Speech Patterns (Vocal Identity)
+- **Speaking Style:** `[Laconic, quiet dry humor, formal detachment, briskly colloquial, or non-verbal creature sounds]`
+- **Signature Phrases (Max 1-2 lines, Anti-Cringe):** `[Phrases uttered organically during high-stakes climaxes, not repeated every scene]`
+- **Emotional Vocal Shift:** `[How pitch and tempo alter when enraged, terrified, or deeply vulnerable]`
+
+### 🎭 2. Iconic Behaviour & Micro-Habits (Physical Identity)
+- **Subconscious Gestures when Thinking / Stressed:** `[e.g., Twisting a thumb ring, adjusting glove straps, tracing a temple scar]`
+- **Interpersonal Mannerisms:** `[Always positioning back to walls, avoiding direct eye contact, inspecting drinks before sipping]`
+- **Resting / Idle Posture:** `[How they sit, lean, or sleep in unfamiliar environments]`
 
 ### 🧣 3. Iconic Part of Body / Signature Wears (Visual Anchor)
-- **Ciri Fisik Unik:** `[Bekas luka bakar berbentuk salib di lengan, warna mata heterochromia, bentuk tanduk unik, postur tegap/bungkuk]`
-- **Signature Wears / Pakaian Khas:** `[Jubah wol lusuh berkerah tinggi, syal merah pudar pemberian keluarga, gesper tembaga peninggalan kuno]`
-- **Item Selalu Dibawa (Pocket Relic):** `[Koin patah, botol ramuan kosong, kompas rusak]`
+- **Distinct Physical Trait:** `[Cross-shaped burn scar on forearm, vertical slit pupils, distinctive horn curvature]`
+- **Signature Wears:** `[Threadbare high-collared wool cloak, faded crimson scarf, tarnished brass buckle]`
+- **Pocket Relic (Carried Item):** `[Cracked coin, empty vial, broken compass]`
 
-### ⚡ 4. Responses to Certain Conditions & Triggers (Respons Trauma & Memori)
-- **Kondisi Pemicu (Sensory / Situational Trigger):** `[Bau asap menyengat, suara rantai bergemerincing, ruangan sempit tertutup, dikhianati rekan]`
-- **Akar Memori / Trauma:** `[Peristiwa spesifik di masa lalu yang mendasari reaksi ini]`
-- **Reaksi Fisik & Mental saat Terpicu:** `[Napas memburu, tangan gemetar sesaat, menjadi sangat agresif, atau membeku/freeze]`
+### ⚡ 4. Responses to Conditions & Triggers (Trauma & Memories)
+- **Sensory / Situational Trigger:** `[Smell of sulfur, sound of rattling chains, enclosed tight spaces, sudden betrayal]`
+- **Root Memory / Past Incident:** `[Specific past trauma generating this reflex]`
+- **Immediate Physical & Mental Reaction:** `[Shallow breathing, momentary hand tremor, sudden aggression, or freezing]`
 
-### 🎯 5. Motivation & Intention on the Story (Dinamis / Berkembang)
-- **Tujuan Jangka Pendek (Immediate Goal):** `[Apa yang ingin dicapai pada bab/arc saat ini]`
-- **Keinginan Terdalam (Ultimate Desire):** `[Kedamaian, pembalasan dendam, melindungi seseorang, penebusan dosa]`
-- **Potensi Perubahan (Dynamic Shift):** `[Kondisi yang bisa membuat tujuannya bergeser di masa depan]`
+### 🎯 5. Story Motivation & Intentions (Dynamic Drive)
+- **Immediate Short-Term Goal:** `[What they must achieve in the current chapter/arc]`
+- **Ultimate Deepest Desire:** `[Solitude, retribution, protecting a companion, redemption]`
+- **Potential Dynamic Shift:** `[What catalyst could fundamentally alter their goals later in the narrative]`
 
-### 🧭 6. Moral Value & Internal Compass (Kompas Moral)
-- **Prinsip Utama (The Line They Never Cross):** `[Hal yang pantang dilakukan apa pun kondisinya, misal: tidak pernah menyakiti anak-anak / menolak meninggalkan rekan]`
-- **Hal yang Dianggap Wajar / Dibenarkan:** `[Kekerasan pragmatis, mencuri dari penguasa korup]`
-- **Landasan Memori:** `[Nasihat figur mentor / penyesalan terbesar yang membentuk kompas moral ini]`
+### 🧭 6. Moral Compass & Red Lines (Internal Ethics)
+- **The Absolute Red Line (Never Crossed):** `[Action they refuse to take under any circumstance, e.g. harming children, abandoning allies]`
+- **Pragmatic Justifications:** `[Actions they justify without hesitation, e.g. stealing from corrupt lords, lethal self-defense]`
+- **Foundational Memory:** `[A mentor's parting words or a profound regret that forged this moral boundary]`
 
 ---
 
-## 3. Dinamika Hubungan (Relationship Dynamics)
+## 3. Relationship Dynamics
 
-| Nama Karakter / Faksi Lain | Tipe Hubungan | Dinamika Interaksi | Titik Gesekan / Tensi Emosional |
+| Other Character / Faction | Relationship Type | Interaction Dynamics | Emotional Friction Points |
 | :--- | :--- | :--- | :--- |
-| **[Karakter A]** | *[Sahabat / Rival / Mentor]* | *[Saling melindungi dengan gaya ketus]* | *[Perbedaan pandangan masa depan]* |
-| **[Karakter B]** | *[Musuh / Mantan Sekutu]* | *[Waspada penuh]* | *[Dendam masa lalu]* |
+| **[Character A]** | *[Companion / Rival / Mentor]* | *[Protective behind gruff exterior]* | *[Conflicting philosophies on duty]* |
+| **[Character B]** | *[Antagonist / Former Ally]* | *[Vigilant hostility]* | *[Unresolved historical betrayal]* |
 
 ---
 
-## 4. Hasil Audit Keselarasan Lore Bible (Lore Consistency Clearance)
+## 4. Lore Bible Clearance Checklist
 
-- [ ] **Asal Wilayah:** Cocok dengan geografi di Lore Bible.
-- [ ] **Kekuatan / Skill:** Mematuhi batasan sihir dan *cost/toll* di Lore Bible.
-- [ ] **Karakter Non-Verbal (Jika Ada):** Gestur dan bahasa tubuh terdefinisi jelas tanpa ketergantungan dialog.
+- [ ] **Regional Origins:** Aligns with geography in the Lore Bible.
+- [ ] **Abilities / Magic:** Adheres to mana limits and physical tolls in the Lore Bible.
+- [ ] **Non-Verbal Characters (if applicable):** Body language and vocal expressions defined clearly without reliance on spoken words.

@@ -1,19 +1,19 @@
-# Indeks Pembuatan Story Outline (Chapter Direction Engine)
+# Story Outline Creation Index (Grand Roadmap & Chapter Direction)
 
-Folder ini berisi seluruh framework, template, dan sistem evaluasi untuk menyusun **Story Outline** (Peta Jalan & Arah Cerita Bab) berdasarkan sintesis **Character Bible**, **Lore Bible**, dan **World Rules** sebagai pengarah (*direction*) bagi penyusunan mikro-logline.
+This directory contains all frameworks, templates, and evaluation tools for formulating the **Grand Story Outline** (Chapter 1 to Finale) by synthesizing the **Character Bible**, **Lore Bible**, and **World Rules** as the macro roadmap for loglines.
 
 ---
 
-## 📚 Daftar Dokumen di Folder Ini
+## 📚 Documents in this Directory
 
 1. **[OUTLINE_FRAMEWORK_AND_SYNTHESIS.md](./OUTLINE_FRAMEWORK_AND_SYNTHESIS.md)**
-   - **Alur Sintesis 3 Pilar:** Cara menggabungkan motivasi karakter, elemen lore, dan gesekan aturan dunia menjadi alur cerita yang kokoh.
-   - **Struktur 5 Milestones Bab:** Arsitektur bab terstandarisasi (*Opening -> Inciting Shift -> Midpoint Escalation -> Decisive Climax -> Ending Cliffhanger Hook*).
-   - **Protokol Handoff ke Logline Engine:** Aturan penyerahan arah cerita ke format 50–100+ beat.
+   - **3-Pillar Synthesis Pipeline:** How to merge character motivations, lore settings, and world rule frictions into compelling narrative roadmaps.
+   - **5-Milestone Chapter Architecture:** Standardized structure (*Opening -> Inciting Shift -> Midpoint Escalation -> Decisive Climax -> Ending Cliffhanger Hook*).
+   - **Handoff Protocol to Logline Engine:** Rules for transferring chapter direction to the 50–100+ beat micro-engine.
 
 2. **[STORY_OUTLINE_TEMPLATE.md](./STORY_OUTLINE_TEMPLATE.md)**
-   - Template resmi penyusunan outline bab modular dengan parameter integrasi fondasi, peta jalan 5 milestone, target rentang beat, dan mood flow.
+   - Master template for mapping the full story arc across 4 Narrative Acts and cataloging all chapters with foundation integration points.
 
 3. **[OUTLINE_EVALUATION.md](./OUTLINE_EVALUATION.md)**
-   - Rubrik penilaian kelayakan outline bab (Keselarasan 3 Pilar, Kausalitas Momentum, Proporsi Pacing, dan Ending Hook).
-   - Formulir Scorecard dan 3 Skenario *Stress-Test* Alur Bab.
+   - Evaluation rubric for narrative roadmaps (Triple-Foundation Alignment, Causality, Pacing, and Ending Hook).
+   - Scorecard form and 3 Chapter Arc Stress Tests.

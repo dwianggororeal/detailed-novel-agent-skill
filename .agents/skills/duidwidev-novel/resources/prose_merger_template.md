@@ -1,65 +1,65 @@
-# Template Resmi Prose Merger (Standar Konversi Logline ke Bab Novel)
+# Official Prose Merger Template (Chapter Conversion Standard)
 
-Dokumen ini adalah template resmi untuk menggabungkan sekumpulan beat **Logline Berdialog** menjadi **Naskah Bab Novel Lengkap**.
-
----
-
-# [JUDUL NOVEL]: BAB [NOMOR] - [JUDUL BAB]
+This document provides the standard template for transforming **Dialogue-Infused Loglines** into a **Complete Novel Chapter Manuscript**.
 
 ---
 
-## 1. Aturan Penataan Alinea & Paragraf
-
-1. **Aturan Pergantian Pembicara (New Speaker = New Paragraph):**
-   - Setiap kali pembicara berganti, wajib memulai paragraf baru.
-2. **Aturan Aksi Pengiring (Action Beats):**
-   - Letakkan aksi sebelum, di tengah, atau sesudah kalimat dialog untuk memberikan jeda ritme bicara yang alami.
-3. **Kepadatan Paragraf (2 - 4 Kalimat per Alinea):**
-   - Hindari dinding teks (*wall of text*). Pecah deskripsi aksi panjang menjadi alinea yang nyaman dibaca di layar maupun buku cetak.
+# [NOVEL TITLE]: CHAPTER [NUMBER] - [CHAPTER TITLE]
 
 ---
 
-## 2. Template Sebelum & Sesudah Merger (Batch Conversion Sample)
+## 1. Paragraphing & Formatting Rules
 
-### 📥 BAGIAN 1: INPUT LOGLINE (Beat 1 - 8)
+1. **New Speaker = New Paragraph:**
+   - Every time the speaking character changes, start a new paragraph.
+2. **Action Beats:**
+   - Integrate physical movements before, during, or after dialogue lines to establish organic conversational pacing.
+3. **Paragraph Density (2 - 4 Sentences per Paragraph):**
+   - Break long descriptive sequences into readable paragraphs suitable for digital and print formats.
+
+---
+
+## 2. Before & After Conversion Demonstration (Batch Sample)
+
+### 📥 PART 1: INPUT LOGLINE BEATS (Beats 1 - 8)
 ```text
-mood : CALM, place : Kamar tidur Raya / Ranjang kayu
-1. Udara pagi terasa sejuk, embun tipis masih menempel di kaca jendela saat Raya membuka mata perlahan.
-2. Rendy si naga kecil menindihkan moncongnya ke dada Raya, kelopak matanya terpejam rapat menolak bergerak dari kasur hangat.
-3. Raya mengelus punggung sisik Rendy lalu berbisik -> Raya: "Rendy... berat, ayo bangun." (nadanya serak).
-4. Rendy mengerucutkan bibirnya -> Rendy: *[Dengkuran malas bernada merajuk]* (menarik selimut menutupi kepalanya).
-5. Raya tertawa kecil lalu menarik selimut itu dari wajah Rendy:
-   - Raya: "Nanti siang kita kehabisan sup jamur madu di pasar, lho." (sambil mencubit pelan pipi naganya).
-   - Rendy: *[Kicauan kaget]* (langsung membuka matanya lebar-lebar).
-   - Raya: "Makanya bangun sekarang. Mau ikut masak tidak?" (beranjak duduk di tepi ranjang).
-   - Rendy: *[Mendengus semangat]* (melompat turun ke lantai kayu mendahului Raya).
-6. Suasana dapur hening hanya diiringi suara gemericik air saat Raya mencuci periuk tanah liat di dekat wastafel.
-7. Rendy tiba-tiba menghentikan langkahnya di dekat pintu samping, sisik di punggung lehernya berdiri tegak.
-8. Raya meletakkan periuk ke meja lalu mendekat dengan langkah sangat pelan -> Raya: "Ssst... jangan bergerak." (berbisik tegang menatap celah pintu).
+mood : CALM, place : Raya's Bedroom / Wooden Bed
+1. The morning air was cool, thin frost clinging to the windowpane as Raya slowly opened her eyes.
+2. Rendy the small dragon rested his snout on Raya's chest, eyes clamped shut, refusing to leave the warm bed.
+3. Raya stroked the scales behind Rendy's horns and whispered -> Raya: "Rendy... you're heavy, get up." (raspy voice).
+4. Rendy scrunched up his snout -> Rendy: *[Sleepy disgruntled purr]* (pulling the blanket over his head).
+5. Raya chuckled softly and tugged the blanket back:
+   - Raya: "If we're late, the market will run out of honey mushroom stew." (pinching his cheek gently).
+   - Rendy: *[Short startled chirp]* (eyes snapping wide open).
+   - Raya: "Then get up now. Are you helping with breakfast or not?" (swinging her legs over the bed).
+   - Rendy: *[Enthusiastic snort]* (leaping onto the floorboards ahead of her).
+6. The kitchen was quiet save for the soft trickle of water as Raya rinsed the clay pot by the basin.
+7. Rendy froze abruptly near the side door, the scales along the back of his neck standing straight up.
+8. Raya placed the pot down without a sound and stepped forward cautiously -> Raya: "Shh... don't move." (whispering tensely toward the door gap).
 ```
 
 ---
 
-### 📤 BAGIAN 2: HASIL OUTPUT NASKAH PROSA NOVEL (FINAL)
+### 📤 PART 2: FINISHED NOVEL PROSE OUTPUT (FINAL)
 
-Udara pagi masih terasa sejuk, dan sisa embun tipis masih menempel di kaca jendela kamar saat Raya perlahan membuka matanya. Di atas dadanya, Rendy menindihkan moncong kecilnya dengan kelopak mata terpejam rapat, sama sekali menolak beranjak dari kasur yang hangat.
+The morning air was still crisp and cool, with a thin layer of frost clinging to the bedroom windowpane as Raya slowly opened her eyes. Resting right on her chest, Rendy had his small snout pressed flat against the blankets, his eyes shut tight, thoroughly refusing to leave the warmth of the bed.
 
-Raya menghela napas pelan sambil mengelus punggung sisik naganya. "Rendy... berat, ayo bangun," bisiknya dengan suara yang masih serak.
+Raya let out a soft sigh and stroked the smooth scales behind her dragon's horns. "Rendy... you're heavy, get up," she whispered, her voice still raspy with sleep.
 
-Bukannya bangun, Rendy justru mengerucutkan bibirnya dan mendengkur malas dengan nada merajuk. Ekornya mengibas pelan di atas kasur, lalu dengan sengaja menarik ujung selimut tebal itu hingga menutupi seluruh kepalanya.
+Instead of moving, Rendy scrunched up his snout and let out a sleepy, disgruntled purr. His tail flicked lazily against the mattress before he deliberately yanked the edge of the thick blanket over his head.
 
-Raya tertawa kecil melihat tingkah naganya. Ia menarik kembali selimut itu dari wajah Rendy dan mencubit pelan pipinya. "Nanti siang kita kehabisan sup jamur madu di pasar, lho."
+Raya chuckled softly at his stubbornness. She pulled the blanket back down and gently pinched the soft flesh of his cheek. "If we're late, the market will run out of honey mushroom stew, you know."
 
-Mendengar kata makanan, mata Rendy seketika membelalak lebar. Ia mengeluarkan kicauan pendek yang kaget.
+At the mention of food, Rendy's eyes snapped wide open. He let out a sharp, startled chirp.
 
-"Makanya bangun sekarang. Mau ikut masak tidak?" goda Raya sambil beranjak duduk di tepi ranjang.
+"Then get up now. Are you helping with breakfast or not?" Raya teased, swinging her legs over the edge of the bed.
 
-Rendy langsung mendengus semangat. Tanpa menunggu disuruh dua kali, naga kecil itu melompat turun ke lantai kayu mendahului langkah Raya menuju tangga.
+Rendy gave an enthusiastic snort. Without waiting another second, the small dragon bounded onto the wooden floorboards, racing down the stairs ahead of her.
 
 ***
 
-Beberapa saat kemudian di dapur lantai bawah, suasana masih begitu hening. Hanya terdengar suara gemericik air saat Raya mencuci periuk tanah liat di dekat wastafel.
+A few minutes later in the downstairs kitchen, the house was entirely quiet save for the soft trickle of water as Raya rinsed a clay pot by the stone basin.
 
-Namun, gerakan Rendy tiba-tiba terhenti di dekat pintu samping. Sisik halus di sepanjang lehernya seketika berdiri tegak menghadap celah kayu di bagian bawah pintu.
+Suddenly, Rendy froze in his tracks by the side door. The fine scales along the back of his neck stood straight up, his eyes fixed on the narrow gap beneath the wooden threshold.
 
-Menyadari gelagat aneh naganya, Raya segera meletakkan periuk itu ke atas meja perlahan tanpa menimbulkan bunyi. Ia mendekat dengan langkah sangat hati-hati, lalu berbisik tegang, "Ssst... jangan bergerak."
+Noticing his sudden stiffness, Raya set the pot down on the table without making a sound. She stepped forward with slow, measured strides and whispered tensely, "Shh... don't move."

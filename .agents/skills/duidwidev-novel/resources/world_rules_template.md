@@ -1,86 +1,86 @@
-# Template Resmi World Rules (Sistem & Hukum Semesta)
+# Official World Rules Template (Universal Mechanics & System Laws)
 
-Dokumen ini adalah template master untuk merancang **Aturan & Dinamika Semesta (World Rules)** baik untuk semesta semi-realistis maupun semesta fantasi RPG penuh.
-
----
-
-# [NAMA SEMESTA / DUNIA]
-
-- **Basis Realisme:** `[Full Real-Life / Semi-Real Life Fiksi / Full Fictional RPG World]`
-- **Deskripsi Premis Utama:** `[1-2 paragraf mengenai tatanan peradaban dan kondisi sosial saat ini]`
+This document is the master template for designing **World Rules and Societal Mechanics** for both semi-realistic universes and full-scale fantasy RPG settings.
 
 ---
 
-## 1. Struktur Ras, Fisiologi & Ketegangan Sosial
+# [UNIVERSE / WORLD NAME]
 
-### A. Daftar Ras Utama
-1. **[Ras Dominan / Manusia]:**
-   - **Karakteristik & Posisi Sosial:** `[Dominan di pemerintahan, hukum, dan struktur guild]`
-   - **Persepsi terhadap Ras Lain:** `[Stereotipe sejarah, pandangan politik, atau segregasi]`
+- **Realism Baseline:** `[Full Real-Life / Semi-Real Life + Fiction / Full Fictional RPG World]`
+- **Core Premise:** `[1-2 paragraphs detailing civilizational order, technology/magic level, and current societal state]`
 
-2. **[Ras Sekunder / Beastmen / Sub-Spesies]:**
-   - **Ciri Fisiologis & Genetik:** `[Karakter fisik khusus, postur, keunggulan fisik (misal: 1.2x kekuatan/kelincahan), perubahan insting zaman modern]`
-   - **Stereotipe & Realitas Sosial:** `[Persepsi publik, kelompok tertutup, diskriminasi penginapan/pekerjaan, atau variasi regional]`
+---
 
-### B. Variasi Regional & Kebijakan Wilayah
-| Wilayah / Pulau / Negara | Kebijakan terhadap Ras | Tingkat Ketegangan Sosial | Kondisi Pemerintahan |
+## 1. Races, Physiology & Social Tensions
+
+### A. Primary Racial Breakdown
+1. **[Dominant Race / Humans]:**
+   - **Characteristics & Social Position:** `[Dominates governance, legal systems, and guild administration]`
+   - **Perceptions of Other Races:** `[Historical stereotypes, political wariness, or segregationist laws]`
+
+2. **[Secondary Race / Beastmen / Sub-Species]:**
+   - **Physiological & Genetic Traits:** `[Distinct physical features, 1.2x physical strength advantage, rapid muscle growth, extinct ancient instincts]`
+   - **Stereotypes & Social Reality:** `[Public biases, tight-knit cliquish behavior, employment/inn discrimination, regional nuances]`
+
+### B. Regional Policies & Governance Variations
+| Region / Island / Kingdom | Policy Towards Non-Dominant Races | Social Tension Level | Governance Type |
 | :--- | :--- | :--- | :--- |
-| **[Region A]** | *[Terbuka / Toleran]* | *[Rendah / Terintegrasi]* | *[Demokratis / Dewan Guild]* |
-| **[Region B]** | *[Diskriminatif / Segregasi]* | *[Tinggi / Laten]* | *[Tirani / Monarki Keras]* |
+| **[Region A]** | *[Open / Integrated]* | *[Low / Tolerant]* | *[Democratic / Guild Council]* |
+| **[Region B]** | *[Discriminatory / Segregated]* | *[High / Latent]* | *[Tyranny / Absolute Monarchy]* |
 
 ---
 
-## 2. Sistem Energi, Sihir & Keterbatasan Fisik
+## 2. Energy, Magic & Physical Limitations
 
-### A. Mekanika Sumber Daya (Mana / Energi Internal)
-- **Sumber:** `[Mana biologis internal dalam tubuh setiap individu]`
-- **Aksesibilitas:** `[Bisa dipelajari semua orang melalui latihan vs bakat genetik murni]`
-- **Ekspansi Kapasitas:** `[Dapat ditingkatkan melalui latihan rutin layaknya pembentukan otot]`
+### A. Internal Mana Mechanics
+- **Energy Source:** `[Internal biological mana present in all living beings]`
+- **Accessibility:** `[Learnable by all through consistent training vs genetic aptitude]`
+- **Capacity Scaling:** `[Expandable via routine training analogous to physical workout]`
 
-### B. Teknologi Penyimpanan Eksternal (Batu Mana / Baterai Energi)
-- **Mekanisme Kerja:** `[Batu khusus yang menyerap dan menyimpan cadangan energi]`
-- **Dampak pada Pengguna:** `[Pengguna harus istirahat total hingga energi biologis pulih setelah pengisian]`
-- **Sistem Komersial:** `[Jasa pengisian batu mana dan penjualan batu siap pakai]`
+### B. External Storage Technology (Mana Stones / Energy Batteries)
+- **Mechanism:** `[Crystals that absorb and store reserve mana like external batteries]`
+- **Physiological Impact:** `[User must undergo complete physical rest after battery absorption]`
+- **Commercial Market:** `[Mana recharging services and pre-charged crystal vendors]`
 
-### C. Batasan Mutlak & Resiko Overuse (*Costs & Backlash*)
-- **Batas Toleransi Fisik:** `[Kelelahan ekstrem, demam mana, atau kerusakan jalur saraf]`
-- **Hal yang Mustahil Dilakukan:** `[Daftar hukum mutlak yang tidak bisa dilanggar sihir]`
-
----
-
-## 3. Sistem Kelas, Lisensi & Birokrasi Guild
-
-### A. 3 Arketipe Kelas Resmi
-1. **🛡️ Vanguard (Pertahanan & Kekuatan Fisik Berat):**
-   - Sub-kategori: *Tank, Warrior, Knight*
-   - Karakteristik: Jarang dipilih karena menuntut latihan fisik ekstrim.
-2. **🧙 Spellcaster (Manipulasi Energi & Integrasi Teknologi):**
-   - Sub-kategori: *Mage, Sorcerer, Enchanter, Healer*
-   - Karakteristik: Sangat populer/banyak peminat berkat kemajuan alat bantu sihir.
-3. **🎯 Striker (Kelincahan, Kecepatan & Presisi):**
-   - Sub-kategori: *Assassin, Marksman, Rogue, Duelist*
-   - Karakteristik: Menengah hingga langka, menuntut keahlian teknis tinggi.
-
-### B. Aturan Lisensi & Ujian Sertifikasi
-- **Sistem Lisensi:** Memperoleh lisensi kelas resmi memerlukan ujian terstandarisasi (setara gelar akademik S1).
-- **Regulasi Multi-Class:** Ujian berlipat ganda atau melalui sayembara/turnamen khusus.
-- **Keterikatan Guild:** Pendaftaran kelas mengikat petualang pada guild tertentu (mencegah pendaftaran ganda).
+### C. Hard Limits & Overuse Backlash (*Costs & Limitations*)
+- **Physical Toll:** `[Severe exhaustion, mana fever, or permanent nerve burnout]`
+- **Universal Impossibilities:** `[Hard laws that magic cannot violate, e.g. instantaneous teleportation without cost]`
 
 ---
 
-## 4. Dinamika Ekonomi Tenaga Kerja (Adventurer Market)
+## 3. Class Systems, Licensing & Guild Bureaucracy
 
-- **Kondisi Pasokan Pekerja:** `[Oversupply di kota besar yang menyebabkan penurunan upah quest vs kelangkaan di perbatasan]`
-- **Regulasi Party & Misi:** `[Kewajiban registrasi party resmi sebelum mengambil quest demi mencegah kecelakaan maut]`
-- **Kategori Quest:** `[Monster Hunt, Escort, Exploration, Gathering, Rescue, Emergency, Event]`
+### A. 3 Official Class Archetypes
+1. **🛡️ Vanguard (Heavy Physical Training & Defense):**
+   - Sub-classes: *Tank, Warrior, Knight*
+   - Trait: Rare due to grueling physical conditioning requirements.
+2. **🧙 Spellcaster (Energy Manipulation & Tech Integration):**
+   - Sub-classes: *Mage, Sorcerer, Enchanter, Healer*
+   - Trait: Highly popular/common due to magic tool advancements.
+3. **🎯 Striker (Agility, Speed & Precision):**
+   - Sub-classes: *Assassin, Marksman, Rogue, Duelist*
+   - Trait: Moderate to rare, requires high technical finesse.
+
+### B. Licensing Regulations & Examinations
+- **Official Licensing:** Obtaining official class status requires standardized examinations (equivalent to an academic university degree / S1).
+- **Multi-Classing:** Heavily scrutinized with compound exam difficulties or tournament trials.
+- **Guild Lock-In:** Class registration binds adventurers to specific guilds to prevent multi-guild exploitation.
 
 ---
 
-## 5. Ekosistem Monster & Matriks Ancaman
+## 4. Adventurer Labor Market Economics
 
-| Kategori Ancaman | Tingkat Populasi | Karakteristik / Pemanfaatan | Aturan Perburuan |
+- **Supply Dynamics:** `[Oversupply in capital cities lowering quest rewards vs scarcity in frontier zones]`
+- **Party & Quest Regulations:** `[Mandatory registered parties for hazardous expeditions to prevent casualties]`
+- **Quest Categories:** `[Monster Hunt, Escort, Exploration, Gathering, Rescue, Emergency, Event]`
+
+---
+
+## 5. Monster Ecology & Threat Classification
+
+| Threat Category | Population Tier | Utilization / Ecological Role | Hunting Regulations |
 | :--- | :--- | :--- | :--- |
-| **Non-Berbahaya / Utility** | *[Overpopulasi]* | *[Bahan pangan, obat, material kerajinan]* | *[Bebas diburu / Ternak]* |
-| **Berbahaya / Combat** | *[Sedang]* | *[Predator teritorial agresif]* | *[Quest resmi guild]* |
-| **Bencana / Crisis Tier** | *[Sangat Langka]* | *[Ancaman kehancuran kota/wilayah]* | *[Misi darurat multi-party]* |
-| **Dilindungi / Protected** | *[Terancam Punah]* | *[Makhluk sakral / penyeimbang ekosistem]* | *[Dilarang keras diburu]* |
+| **Utility / Non-Hazardous** | *[Overpopulated]* | *[Food source, medicine, leather crafting]* | *[Unrestricted hunting / Farming]* |
+| **Hazardous / Combat** | *[Balanced]* | *[Territorial predators]* | *[Official guild bounties]* |
+| **Crisis / Disaster Tier** | *[Extremely Rare]* | *[City-destroying catastrophe]* | *[Emergency multi-party raid]* |
+| **Protected / Sacred** | *[Endangered]* | *[Ecosystem balance keystone]* | *[Strictly protected by law]* |

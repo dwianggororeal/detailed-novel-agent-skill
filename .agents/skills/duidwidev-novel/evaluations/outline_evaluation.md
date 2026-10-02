@@ -1,41 +1,41 @@
-# Lembar Evaluasi & Standar Kelayakan Story Outline
+# Story Outline Evaluation & Narrative Robustness Rubric
 
-Dokumen ini digunakan untuk menguji kualitas, keselarasan fondasi, dan ketepatan arah (*direction*) dari **Story Outline** sebelum diserahkan ke engine penyusunan logline.
+This document evaluates the narrative momentum, 3-pillar foundation alignment, and chapter roadmap readiness before logline drafting begins.
 
 ---
 
-## 1. Rubrik Evaluasi Outline Bab (Skala 1 - 5)
+## 1. Story Outline Evaluation Rubric (Scale 1 - 5)
 
-| Dimensi Penilaian | Bobot | Deskripsi | Standar Minimal Kelulusan (4/5) |
+| Dimension | Weight | Description | Minimum Passing Standard (4/5) |
 | :--- | :---: | :--- | :--- |
-| **1. Keselarasan 3 Pilar (Triple Alignment)** | 30% | Sinkronisasi penuh dengan Character Bible (motivasi), Lore Bible (tempat/item), dan World Rules (hukum/friksi). | 0 kontradiksi dengan ketiga dokumen fondasi. |
-| **2. Kausalitas & Momentum Cerita (Causality)** | 25% | Transisi antar Milestone (A s/d E) logis dan memiliki gaya dorong narasi yang jelas. | Setiap aksi di Milestone N memicu konsekuensi di Milestone N+1. |
-| **3. Proporsi Pacing & Kesiapan Logline** | 25% | Distribusi alokasi beat realistis untuk kebutuhan slowburn (total 80–100 beat). | Tidak ada pemadatan terburu-buru di akhir bab. |
-| **4. Kekuatan Ending Hook (Cliffhanger)** | 20% | Penutup bab menciptakan urgensi yang memikat tanpa terasa dipaksakan secara murahan. | Mendarat presisi pada titik transisi bab berikutnya. |
+| **1. Triple-Foundation Alignment** | 30% | Full synchronization with Character Bible (drives), Lore Bible (places), and World Rules (friction). | 0 contradictions across all 3 foundation docs. |
+| **2. Connected Causality & Momentum** | 25% | Transitions across Milestones A to E are logical and propel the narrative forward. | Action in Milestone N directly causes Milestone N+1. |
+| **3. Pacing Proportion & Logline Fit** | 25% | Beat allocations are realistically distributed for slowburn storytelling (80–100 beats). | No rushed compressions at the chapter climax. |
+| **4. Ending Hook Strength** | 20% | Chapter cliffhangers create natural urgency without feeling cheap or melodramatic. | Precision handoff to subsequent chapter openings. |
 
 ---
 
-## 2. Formulir Scorecard Story Outline
+## 2. Story Outline Scorecard Form
 
 ```text
-Judul Bab         : [Nomor & Judul Bab]
-Tanggal Evaluasi  : [YYYY-MM-DD]
-Evaluator         : [Agent / User]
+Chapter Title / Arc : [Chapter Number & Title]
+Evaluation Date     : [YYYY-MM-DD]
+Evaluator           : [Agent / User]
 
-[SKOR PENILAIAN]
-1. Keselarasan 3 Pilar (30%)          : [Skor 1-5] -> Poin: ...
-2. Kausalitas & Momentum (25%)        : [Skor 1-5] -> Poin: ...
-3. Proporsi Pacing & Logline Fit (25%): [Skor 1-5] -> Poin: ...
-4. Kekuatan Ending Hook (20%)         : [Skor 1-5] -> Poin: ...
+[SCORE BREAKDOWN]
+1. Triple Alignment (30%)         : [Score 1-5] -> Points: ...
+2. Connected Causality (25%)      : [Score 1-5] -> Points: ...
+3. Pacing & Logline Fit (25%)     : [Score 1-5] -> Points: ...
+4. Ending Hook Strength (20%)     : [Score 1-5] -> Points: ...
 
-TOTAL SKOR AKHIR: [Skor % / 100%]
-STATUS KELAYAKAN: [READY FOR LOGLINE / NEEDS REVISION]
+TOTAL SCORE: [Score % / 100%]
+STATUS     : [READY FOR LOGLINE / NEEDS REVISION]
 ```
 
 ---
 
-## 3. Stress-Test Outline Bab (Uji Ketahanan Alur)
+## 3. Chapter Arc Stress Tests
 
-1. **The Purpose Test:** Jika Milestone C dihapus, apakah Milestone D dan E masih bisa terjadi secara logis? Jika masih bisa, berarti Milestone C hanya sekadar filler dan harus diperbaiki.
-2. **The World Rule Friction Test:** Apakah rintangan yang dihadapi karakter benar-benar memanfaatkan aturan dunia (misal: sistem guild, diskriminasi ras, atau keterbatasan mana)?
-3. **The Slowburn Feasibility Test:** Apakah setiap milestone memiliki ruang adegan yang cukup untuk dijabarkan menjadi 15–30 beat gestur mikro tanpa terasa membosankan?
+1. **The Purpose Test:** If Milestone C is removed, can Milestone D and E still occur logically? If yes, Milestone C is aimless filler and must be re-anchored.
+2. **The World Rule Friction Test:** Do obstacles actively engage world mechanics (guild bureaucracy, mana scarcity, or racial biases)?
+3. **The Slowburn Feasibility Test:** Does each milestone offer enough room for 15–30 micro-gesture beats without becoming repetitive?

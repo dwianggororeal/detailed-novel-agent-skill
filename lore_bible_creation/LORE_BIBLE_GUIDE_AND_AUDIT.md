@@ -1,98 +1,97 @@
-# Panduan & Protokol Kurasi Lore Bible (World Rules & Specifications)
+# Lore Bible Curation & Audit Protocol (World Specifications)
 
-Dokumen ini mendefinisikan aturan penyusunan **Lore Bible**, standar **Penamaan Otentik (Anti-Generic Names)**, batasan **Alasan Kuat & Kontribusi Nyata**, serta **Protokol Wajib Konfirmasi User**.
-
----
-
-## 1. Definisi & Ruang Lingkup Lore Bible
-
-**Lore Bible** adalah basis data spesifikasi resmi dunia yang memuat:
-1. ⚔️ **Item & Objek:** Artefak, senjata, material langka, peninggalan kuno.
-2. 🐉 **Entitas & Makhluk:** Ras, naga, monster teritorial, roh, fauna unik.
-3. 📜 **Rules & Hukum Dunia:** Sistem sihir/energi, batasan mutlak, pantangan, hukum kausalitas.
-4. 🗺️ **Tempat & Environment:** Geografi, kota, reruntuhan, atmosfer, iklim ekstrem.
-5. 👥 **Relasi & Sosial:** Hubungan antar faksi/kelompok, strata sosial, tensi politik.
-6. ⏳ **Sejarah & Garis Waktu:** Peristiwa masa lalu yang membentuk kondisi dunia saat ini.
+This document defines the rules for structuring the **Lore Bible**, enforcing **Authentic Naming Conventions (Anti-Generic Compound Words)**, requiring **Strong Justifications & Tangible Contributions**, and maintaining the **Mandatory User Curation Gate**.
 
 ---
 
-## 2. Standar Kualitas Entri Lore (Anti-Bloat & Anti-Fancy Words)
+## 1. Scope & Taxonomy of the Lore Bible
 
-Setiap entri yang diajukan wajib memenuhi 2 syarat fundamental:
-
-### A. Wajib Memiliki Alasan Kuat & Kontribusi Nyata
-- **Bukan Sekadar Hiasan:** Dilarang menambahkan item, makhluk, atau tempat hanya agar kelihatan "ramai".
-- **Harus Berdampak:** Setiap entri harus memiliki fungsi nyata terhadap ekosistem dunia, plot, atau konflik karakter.
-
-### B. Dilarang Menggunakan Kata-Kata 'Fancy' Kosong (*Anti-Pretentious Vocabulary*)
-- Hindari istilah rumit yang hanya terdengar keren tapi tidak memiliki mekanisme fungsional.
-- Jelaskan fungsi, batasan, dan cara kerja setiap objek/makhluk secara konkret dan membumi.
+The **Lore Bible** serves as the official canon repository detailing:
+1. ⚔️ **Items & Objects:** Relics, weapons, rare materials, potions, ancient artifacts.
+2. 🐉 **Entities & Creatures:** Species, dragons, territorial monsters, spirits, unique fauna.
+3. 📜 **Rules & Universal Laws:** Magic/energy mechanics, hard limits, universal taboos, causality laws.
+4. 🗺️ **Places & Environments:** Geography, cities, ruins, atmospheres, extreme climates.
+5. 👥 **Social Relations & Factions:** Inter-group ties, social hierarchies, political tensions.
+6. ⏳ **History & Key Timeline:** Crucial past events shaping current world conditions.
 
 ---
 
-## 3. Konvensi Penamaan (Anti-Generic Compound Words)
+## 2. Quality Standards for Lore Entries (Anti-Bloat & Anti-Fancy Words)
 
-Untuk dunia fantasi / dunia lain (*otherworldly*), hindari penamaan generik hasil gabungan kata bahasa Inggris dasar yang klise dan pasaran.
+Every candidate lore entry must satisfy two fundamental criteria:
+
+### A. Strong Justification & Meaningful Contribution
+- **Not Merely Decorative:** Do not invent items, monsters, or locations solely to make the world look crowded.
+- **Narrative & Systemic Impact:** Every entry must serve a functional purpose in the ecosystem, plot stakes, or character conflicts.
+
+### B. Anti-Pretentious Vocabulary & Zero Fancy Filler Words
+- Avoid convoluted, pseudointellectual jargon that lacks functional mechanics.
+- Explain functions, limitations, and operational mechanics clearly and concretely.
+
+---
+
+## 3. Authentic Naming Conventions (Anti-Generic Compound Words)
+
+For fantasy and otherworldly settings, strictly avoid generic, cliché compound English words.
 
 ```text
-❌ CONTOH GENERIK (HINDARI UNTUK DUNIA FANTASI):
+❌ GENERIC EXAMPLES (BANNED FOR FANTASY WORLDS):
 - "Eastview Horizon"
 - "Blackclaw Monster"
 - "Shadowblade Dagger"
 - "Darkwood Forest"
--> Terlalu klise, generik, dan tidak berkesan (lupa dalam 5 menit).
+-> Cliché, unmemorable, and immersion-breaking.
 
-✅ CONTOH OTENTIK & MEMORABLE (GUNAKAN INI):
-- Gunakan nama 1 kata yang distingtif, berakar Latin, atau fonetik unik.
-- Contoh: 'Irthiniris', 'Valdris', 'Morvath', 'Saeloria', 'Kaelen'.
-- Mudah diingat, memiliki identitas kuat, dan terasa seperti nama dunia asli.
+✅ AUTHENTIC & MEMORABLE EXAMPLES (USE THIS):
+- Use distinctive single-word names, Latin-root inspired, or unique phonetics.
+- Examples: 'Irthiniris', 'Valdris', 'Morvath', 'Saeloria', 'Kaelen'.
+- Memorable, distinct identity, and sounds like an authentic living world.
 ```
 
 ---
 
-## 4. ATURAN MUTLAK: Protokol Kurasi User (Wajib Tanya Dulu)
+## 4. MANDATORY RULE: The User Curation Gate (Ask User First)
 
 > [!IMPORTANT]
-> **TIDAK SEMUA DETAIL DUNIA HARUS MASUK KE LORE BIBLE.**
-> Agent **DILARANG KERAS** menambahkan, mengubah, atau memasukkan nama/entri baru ke Lore Bible secara sepihak.
+> **NOT ALL WORLD DETAILS BELONG IN THE LORE BIBLE.**
+> The agent is **STRICTLY PROHIBITED** from unilaterally adding or editing lore entries without explicit user confirmation.
 
 ```mermaid
 graph TD
-    A[Ide Entri Baru: Item / Entitas / Tempat / Rules] --> B{Cek 1: Naming Check}
-    B -->|Nama Generik Eastview/Blackclaw| C[Revisi ke Nama Otentik: misal Irthiniris]
-    B -->|Nama Otentik & Unik| D{Cek 2: Alasan & Kontribusi}
-    D -->|Hanya Hiasan Kosong / Fancy Words| E[🚨 REJECT: Tidak Layak Masuk Lore]
-    D -->|Punya Fungsi & Alasan Kuat| F[Susun Format Usulan]
-    F --> G{🚨 GATE MUTLAK: Tanya Izin User}
-    G -->|User Menolak| H[❌ Jangan Masukkan ke Lore Bible]
-    G -->|User Setuju| I[✅ Catat Resmi ke Lore Bible]
+    A[New Lore Idea: Item / Entity / Place / Rule] --> B{Check 1: Naming Check}
+    B -->|Generic Compound Name| C[Revise to Authentic 1-Word: e.g. Irthiniris]
+    B -->|Authentic Name| D{Check 2: Justification & Contribution}
+    D -->|Empty Decor / Fancy Words| E[🚨 REJECT: Unfit for Lore Bible]
+    D -->|Functional & Justified| F[Draft Standard Proposal Format]
+    F --> G{🚨 MANDATORY GATE: Ask User Permission}
+    G -->|User Rejects| H[❌ Do NOT Record into Lore Bible]
+    G -->|User Approves| I[✅ Canonize into Lore Bible]
 ```
 
 ---
 
-## 5. Format Baku Pengajuan Entri Lore ke User
+## 5. Standard Confirmation Proposal Format
 
-Sebelum mencatat entri baru ke dalam Lore Bible, agent **wajib** mengajukan pertanyaan menggunakan format berikut:
+Before adding any entry to the Lore Bible, the agent **MUST** prompt the user using this template:
 
 ```text
-[USULAN KANON LORE BIBLE BARU]
-- Kategori           : [Item / Entitas / Objek / Rules / Tempat / Relasi / Sejarah]
-- Nama Entri         : [Gunakan nama unik 1 kata / Latin / bukan generic compound words, contoh: 'Irthiniris']
-- Alasan & Kontribusi: [Mengapa entri ini penting & apa dampaknya bagi dunia/cerita?]
-- Spesifikasi        : [Fungsi, karakteristik konkret, bebas kata-kata fancy kosong]
-- Batasan / Cost     : [Kelemahan atau biaya penggunaannya]
+[PROPOSED LORE BIBLE CANON ENTRY]
+- Category      : [Item / Entity / Object / Rule / Place / Relation / History]
+- Entry Name    : [Distinctive 1-word / Latin-root name, e.g., 'Irthiniris']
+- Justification : [Why is this necessary & how does it impact the story/world?]
+- Specification : [Concrete functions, physical characteristics, free of fancy slop]
+- Hard Limit    : [Limitations, costs, or side effects]
 
--> Apakah Anda menyetujui entri ini untuk dicatat secara resmi ke dalam Lore Bible?
+-> Do you approve adding this entry as official canon in the Lore Bible, or should it remain a passing background detail?
 ```
 
 ---
 
-## 6. Checklist Audit Pre-Approval Lore
+## 6. Pre-Approval Audit Checklist
 
-Sebelum entri Lore Bible disetujui:
-- [ ] User telah memberikan izin tertulis.
-- [ ] Nama entri otentik/unik (bukan nama generik gabungan kata seperti *Eastview / Blackclaw*).
-- [ ] Memiliki alasan keberadaan yang kuat dan kontribusi nyata terhadap dunia/plot.
-- [ ] Bebas dari frasa puitis / kata-kata *fancy* yang tidak jelas fungsinya.
-- [ ] Memiliki batasan (*limits*) dan biaya (*costs*) yang jelas.
-- [ ] Tidak bertentangan dengan entri lain yang sudah ada di Lore Bible.
+- [ ] User gave explicit written confirmation.
+- [ ] Entry uses authentic naming (no generic compound words like *Eastview / Blackclaw*).
+- [ ] Possesses strong existence justification and narrative contribution.
+- [ ] Free from pretentious purple prose or empty fancy words.
+- [ ] Features concrete limits and usage costs.
+- [ ] Zero contradictions with established lore.

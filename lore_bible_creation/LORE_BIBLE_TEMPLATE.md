@@ -1,66 +1,66 @@
-# Template Resmi Lore Bible (Kanon Spesifikasi Dunia)
+# Official Lore Bible Template (Curated World Canon)
 
-Dokumen ini adalah repositori kanon resmi yang memuat spesifikasi terkurasi dari **Item, Entitas, Objek, Rules, Tempat, Relasi Sosial, Environment, dan Sejarah Dunia**.
+This document is the official canon repository recording curated specifications for **Items, Entities, Objects, Rules, Places, Social Dynamics, Environment, and History**.
 
-> *Prinsip Wajib:*
-> 1. Setiap entri wajib memiliki **alasan kuat & kontribusi nyata** (bukan hiasan kosong).
-> 2. Penamaan menggunakan **nama otentik / 1 kata distingtif / Latin-root (seperti 'Irthiniris')**, bukan gabungan kata generik (*Eastview / Blackclaw*).
-> 3. Setiap penambahan/perubahan **wajib mendapatkan persetujuan user terlebih dahulu**.
-
----
-
-# [NAMA DUNIA / SEMESTA CERITA]
+> *Core Principles:*
+> 1. Every entry must possess a **strong justification and tangible contribution**.
+> 2. Naming must follow **authentic, distinctive 1-word / Latin-root conventions (e.g., 'Irthiniris')**, avoiding generic compound phrases (*Eastview / Blackclaw*).
+> 3. All additions and modifications **require explicit user confirmation**.
 
 ---
 
-## 1. Rules & Hukum Mutlak Dunia (World Mechanics & Taboos)
+# [UNIVERSE / WORLD NAME]
 
-| Nama Aturan / Hukum | Mekanisme & Cara Kerja | Batasan Mutlak (*Hard Limit*) | Konsekuensi Pelanggaran | Alasan / Kontribusi terhadap Dunia |
+---
+
+## 1. Universal Rules & Mechanics (World Laws & Hard Taboos)
+
+| Rule / Law Name | Operational Mechanics | Hard Limits | Violation Backlash | World Justification & Stakes |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Nama Hukum]** | *[Bagaimana energi/sistem diakses]* | *[Apa yang tidak bisa dilakukan]* | *[Backlash / Toll nyata]* | *[Mencegah kekuatan tak terbatas]* |
+| **[Law Name]** | *[How the energy/rule operates]* | *[What cannot be done]* | *[Physical toll / Backlash]* | *[Prevents infinite power / plot holes]* |
 
 ---
 
-## 2. Tempat, Geografi & Environment (Locations & Habitats)
+## 2. Places, Geography & Environments (Locations & Habitats)
 
-### [Nama Tempat Otentik, Contoh: *Valdris* / *Saeloria*]
-- **Alasan Keberadaan & Peran:** `[Pusat perdagangan mineral / batas pertahanan terakhir]`
-- **Tipe Lokasi & Medan:** `[Kota benteng tebing batu / Lembah kristal terisolasi]`
-- **Environment & Cuaca Khas:** `[Suhu rendah konstan, kabut tipis berbau belerang]`
-- **Penguasa / Populasi Utama:** `[Faksi / jenis ras penghuni]`
-- **Bahaya / Ciri Khas Lingkungan:** `[Arus angin tajam di malam hari]`
-
----
-
-## 3. Item, Objek & Artefak (Artifacts & Materials)
-
-### [Nama Item Otentik, Contoh: *Irthiniris* / *Kaelen*]
-- **Kategori & Asal Material:** `[Batu inti tambang kuno / Senjata tempaan tunggal]`
-- **Alasan & Kontribusi:** `[Satu-satunya alat yang dapat menstabilkan energi naga muda]`
-- **Fungsi Konkret:** `[Deskripsi fungsi nyata tanpa kata fancy kosong]`
-- **Batasan & Biaya Penggunaan:** `[Menyerap stamina fisik pengguna saat diaktifkan]`
+### [Authentic Place Name, e.g., *Valdris* / *Saeloria*]
+- **Role & Justification:** `[Primary mineral trade hub / Last defensive bastion]`
+- **Location Type & Terrain:** `[Cliffside fortress city / Isolated crystal valley]`
+- **Environment & Atmosphere:** `[Constant low temperature, thin sulfuric mist]`
+- **Governing Body / Population:** `[Controlling faction / primary inhabitants]`
+- **Environmental Hazards:** `[Sharp gale-force winds at dusk]`
 
 ---
 
-## 4. Entitas, Makhluk & Bestiary (Creatures & Races)
+## 3. Items, Objects & Artifacts (Relics & Materials)
 
-### [Nama Entitas Otentik, Contoh: *Morvath* / Jenis Naga Tertentu]
-- **Klasifikasi & Sifat Alami:** `[Makhluk predator teritorial / Cerdas non-verbal / Jinak jika berikatan]`
-- **Alasan & Peran Ekologi:** `[Penjaga alami jurang batas wilayah]`
-- **Ciri Fisik & Kemampuan:** `[Sisik tahan panas, penglihatan tajam di kegelapan]`
-- **Habitat & Relasi dengan Manusia:** `[Hidup di gua tebing, jarang menyerang kecuali sarangnya terusik]`
+### [Authentic Item Name, e.g., *Irthiniris* / *Kaelen*]
+- **Category & Materials:** `[Ancient corestone relic / Single-forged runic blade]`
+- **Justification & Contribution:** `[The sole artifact capable of stabilizing young dragon energy]`
+- **Concrete Function:** `[Functional description without empty fancy words]`
+- **Costs & Limitations:** `[Drains user's physical stamina upon activation]`
 
 ---
 
-## 5. Relasi Sosial, Faksi & Politik (Social Dynamics)
+## 4. Entities, Creatures & Bestiary (Species & Fauna)
 
-| Faksi / Kelompok | Pemimpin & Ideologi | Hubungan / Tensi dengan Faksi Lain | Kontribusi terhadap Konflik Cerita |
+### [Authentic Entity Name, e.g., *Morvath* / Dragon Breed]
+- **Classification & Nature:** `[Territorial apex predator / Intelligent non-verbal / Domesticable via bond]`
+- **Ecological Justification:** `[Natural guardian of border canyons]`
+- **Physical Traits & Abilities:** `[Heat-resistant scales, acute night vision]`
+- **Habitat & Human Relations:** `[Nests in high caves, non-hostile unless territory is breached]`
+
+---
+
+## 5. Social Dynamics, Factions & Politics
+
+| Faction / Organization | Leadership & Ideology | Relations / Tensions with Other Factions | Contribution to Story Conflicts |
 | :--- | :--- | :--- | :--- |
-| **[Nama Faksi Otentik]** | *[Nama & Tujuan]* | *[Sengketa wilayah tambang dengan Faksi B]* | *[Memicu kelangkaan sumber daya]* |
+| **[Authentic Faction Name]** | *[Leadership & Goal]* | *[Cold war with Faction B over mine rights]* | *[Drives resource scarcity stakes]* |
 
 ---
 
-## 6. Sejarah & Garis Waktu Kunci (Timeline)
+## 6. Key Historical Timeline (Canon Chronology)
 
-- **[Era / Peristiwa Kunci 1]:** `[Peristiwa konkret yang mengubah tatanan dunia saat ini]`
-- **[Era Sekarang]:** `[Status ketegangan saat cerita dimulai]`
+- **[Ancient Era / Major Cataclysm]:** `[Pivotal event that shaped present world borders]`
+- **[Current Era]:** `[Present tension state as the story opens]`

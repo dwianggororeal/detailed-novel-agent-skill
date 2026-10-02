@@ -1,20 +1,18 @@
-# Indeks Narration & Merger (Transformasi Logline ke Prosa Novel)
+# Narration & Merger Index (Final Novel Prose Transformation)
 
-Folder ini berisi seluruh framework, template, dan sistem evaluasi untuk menggabungkan **Logline Berdialog** menjadi **Paragraf Prosa Novel Final** yang mengalir luwes, mudah dipahami, jernih, dan bebas dari kata-kata puitis/arkais yang tidak lazim.
+This directory contains the system for converting **Dialogue-Infused Loglines** into **Complete Final Novel Prose Paragraphs** using plain, grounded language free from archaic words and purple AI slop.
 
 ---
 
-## 📚 Daftar Dokumen di Folder Ini
+## 📚 Documents in this Directory
 
 1. **[NARRATION_AND_MERGER_GUIDE.md](./NARRATION_AND_MERGER_GUIDE.md)**
-   - **Filosofi Gaya Bahasa:** Bahasa lugas, membumi, anti-puitis (*zero purple prose*), dan tanpa *sugar-coating*.
-   - **Larangan Frasa & Kata Kerja Tidak Umum:** Menghindari kata sastra berat/arkais (*menderai, meruyak, menelikung*) dan menggantinya dengan kata kerja wajar sehari-hari.
-   - **Teknik Penggabungan Luwes (*The Fluid Merger*):** Formula dinamis menyatukan aksi lingkungan, gestur karakter, dialog, dan dialog tag.
+   - **Prose Philosophy:** Plain, grounded, accessible language with zero purple prose and zero sugar-coating.
+   - **Ban on Obscure / Archaic Verbs:** Strict avoidance of pretentious literary jargon; use natural everyday verbs.
+   - **The Fluid Merger Formula:** Seamlessly blending environmental beats, character actions, dialogue, and delivery tags.
 
 2. **[PROSE_MERGER_TEMPLATE.md](./PROSE_MERGER_TEMPLATE.md)**
-   - Template resmi konversi bab novel sebelum & sesudah (*Input Beat 1-8 -> Output Naskah Prosa Final*).
-   - Aturan alinea, pergantian pembicara, dan penataan aksi pengiring.
+   - Official conversion template demonstrating before-and-after transformations (Input Beats 1–8 -> Output Finished Chapter Prose).
 
 3. **[NARRATION_EVALUATION.md](./NARRATION_EVALUATION.md)**
-   - Rubrik penilaian kualitas prosa (Kejernihan Bahasa, Zero Purple Prose, Keluwesan Merger, dan Preservasi Slowburn).
-   - Formulir Scorecard dan Checklist Pemindai Kata Tidak Umum.
+   - Narrative prose evaluation rubric and the Archaic Word Scanner checklist.

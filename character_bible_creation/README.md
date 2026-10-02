@@ -1,22 +1,22 @@
-# Indeks Pembuatan Character Bible (Master Branding & Karakterisasi)
+# Character Bible Creation Index (Master Branding & Profiling)
 
-Folder ini berisi seluruh dokumen panduan, template, dan sistem evaluasi untuk merancang **Character Bible** dengan branding yang kuat, mendalam, dan selaras dengan Lore Bible.
+This directory contains all guides, templates, and evaluation tools for engineering **Character Bibles** with ultra-strong branding, deep psychological realism, and 100% lore consistency.
 
 ---
 
-## 📚 Daftar Dokumen di Folder Ini
+## 📚 Documents in this Directory
 
 1. **[CHARACTER_BIBLE_TEMPLATE.md](./CHARACTER_BIBLE_TEMPLATE.md)**
-   - Template resmi profil karakter yang memuat:
-     - 6 Pilar Branding Super-Kuat (*Iconic Lines anti-cringe, Iconic Behaviour/Micro-habits, Visual Anchor/Wears, Responses to Triggers/Trauma, Dynamic Motivation, & Moral Compass*).
-     - Matriks Dinamika Hubungan Antar Karakter.
-     - Checklist Hasil Audit Lore Bible.
+   - Official master template detailing:
+     - 6 Core Branding Pillars (*Iconic non-cringe lines, Micro-habits, Visual anchors/wears, Dynamic trauma triggers, Evolving story motivations, and Moral red lines*).
+     - Inter-character relationship matrix.
+     - Lore Bible clearance checklist.
 
 2. **[CHARACTER_BIBLE_GUIDE_AND_AUDIT.md](./CHARACTER_BIBLE_GUIDE_AND_AUDIT.md)**
-   - **Protokol Wawancara Interaktif:** Panduan bagi agent untuk selalu memberikan opsi-opsi terkurasi kepada user saat menggali detail karakter.
-   - **Standar 6 Pilar Branding:** Panduan mendalam tentang gestur mikro, visual anchor, dan kompas moral.
-   - **Audit Keselarasan Lore Bible:** Pemeriksaan asal ras, batasan sihir/kekuatan, dan status faksi di dunia.
+   - **Interactive Multi-Choice Interview Protocol:** Guidelines for agents to proactively provide curated options to users.
+   - **6 Branding Pillars Guide:** Deep dives into micro-gestures, visual anchors, and moral red lines.
+   - **Lore Bible Compatibility Audit:** Verification of racial origins, magic limits, and faction alignments.
 
 3. **[CHARACTER_BIBLE_EVALUATION.md](./CHARACTER_BIBLE_EVALUATION.md)**
-   - Rubrik penilaian 4 dimensi kualitas karakterisasi.
-   - Formulir Scorecard dan 3 Skenario *Stress-Test* (Moral Dilemma, Silhouette, & Power Limit Test).
+   - Characterization evaluation rubric (4 assessment dimensions).
+   - Scorecard form and 3 Characterization Stress Tests (Moral Dilemma, Silhouette, and Power Limit Tests).

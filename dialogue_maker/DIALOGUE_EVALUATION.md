@@ -1,42 +1,42 @@
-# Lembar Evaluasi & Standar Kelayakan Dialog
+# Dialogue Evaluation & Delivery Rubric
 
-Dokumen ini digunakan untuk menguji kualitas, keaslian nada bicara (*voice distinctiveness*), serta integrasi aksi fisik pada **Dialog di dalam Logline**.
+This document evaluates the authenticity of speech patterns (*voice distinctiveness*), natural flow, and physical anchoring of **Dialogues in Loglines**.
 
 ---
 
-## 1. Rubrik Penilaian Dialog (Skala 1 - 5)
+## 1. Dialogue Evaluation Rubric (Scale 1 - 5)
 
-| Dimensi Penilaian | Bobot | Deskripsi | Standar Minimal Kelulusan (4/5) |
+| Dimension | Weight | Description | Minimum Passing Standard (4/5) |
 | :--- | :---: | :--- | :--- |
-| **1. Kekhasan Suara Karakter (Voice Distinctiveness)** | 30% | Kosakata, ritme bicara, dan gaya tutur 100% cocok dengan Character Bible. | Pembaca bisa mengenali pembicara tanpa melihat label nama. |
-| **2. Integrasi Aksi & Gestur (Action Anchoring)** | 25% | Dialog tidak melayang; selalu disertai gestur mikro, kontak fisik, atau reaksi tubuh. | Zero *talking heads*; setiap baris dialog berakar pada aksi fisik. |
-| **3. Subteks & Anti-Eksposisi (Subtext & Flow)** | 25% | Bebas dari info-dump aturan dunia; kalimat mengalir alami sesuai situasi percakapan nyata. | Tidak ada karakter yang menjelaskan fakta yang sudah sama-sama diketahui. |
-| **4. Keselarasan Mood & Suasana** | 20% | Nada bicara dan pilihan kata selaras dengan tag `mood` pada beat logline terkait. | Dialog mencerminkan dinamika emosi adegan secara presisi. |
+| **1. Voice Distinctiveness** | 30% | Vocabulary, rhythm, and tone 100% reflect the Character Bible. | Readers identify the speaker without name tags. |
+| **2. Action Anchoring** | 25% | Dialogues are physically anchored by micro-gestures and eye movement (*zero talking heads*). | Every line of dialogue is grounded in physical action. |
+| **3. Subtext & Anti-Exposition** | 25% | Free from worldbuilding info-dumps; speech flows naturally. | No characters lecture about known facts. |
+| **4. Mood & Atmosphere Alignment** | 20% | Spoken lines and delivery tags align with the beat's `mood` token. | Dialogue reflects scene emotional dynamics accurately. |
 
 ---
 
-## 2. Formulir Scorecard Dialog
+## 2. Dialogue Scorecard Form
 
 ```text
-Target Bab / Adegan : [Bab / Adegan]
-Karakter Terlibat   : [Daftar Karakter]
-Tanggal Evaluasi    : [YYYY-MM-DD]
-Evaluator           : [Agent / User]
+Chapter / Scene Target : [Target Scene]
+Cast Involved          : [Character List]
+Evaluation Date        : [YYYY-MM-DD]
+Evaluator              : [Agent / User]
 
-[SKOR PENILAIAN]
-1. Kekhasan Suara Karakter (30%) : [Skor 1-5] -> Poin: ...
-2. Integrasi Aksi & Gestur (25%) : [Skor 1-5] -> Poin: ...
-3. Subteks & Anti-Eksposisi (25%): [Skor 1-5] -> Poin: ...
-4. Keselarasan Mood (20%)        : [Skor 1-5] -> Poin: ...
+[SCORE BREAKDOWN]
+1. Voice Distinctiveness (30%) : [Score 1-5] -> Points: ...
+2. Action Anchoring (25%)      : [Score 1-5] -> Points: ...
+3. Subtext & Anti-Exposition(25): [Score 1-5] -> Points: ...
+4. Mood Alignment (20%)        : [Score 1-5] -> Points: ...
 
-TOTAL SKOR AKHIR: [Skor % / 100%]
-STATUS KELAYAKAN: [APPROVED / NEEDS REFINEMENT]
+TOTAL SCORE: [Score % / 100%]
+STATUS     : [APPROVED / NEEDS REFINEMENT]
 ```
 
 ---
 
-## 3. Stress-Test Dialog (Uji Keaslian Percakapan)
+## 3. Dialogue Stress Tests
 
-1. **The Blind Read Test:** Jika nama pembicara dihapus dari naskah dialog, apakah Anda masih bisa membedakan mana ucapan Karakter A dan mana ucapan Karakter B?
-2. **The Exposition Scrub Test:** Apakah ada baris kalimat di mana karakter terkesan sedang "mengajari pembaca tentang lore dunia"? Jika ada, segera ubah menjadi aksi atau potong kalimat tersebut.
-3. **The Melodrama & Cringe Test:** Apakah ada kalimat yang terdengar terlalu dramatis atau dipaksakan untuk adegan sehari-hari? Pastikan kalimat terdengar wajar di telinga manusia nyata.
+1. **The Blind Read Test:** If character names are removed, can you distinguish who is speaking?
+2. **The Exposition Scrub Test:** Does any character sound like an encyclopedia lecturing the reader?
+3. **The Melodrama Check:** Does casual speech sound natural to real human ears?

@@ -9,128 +9,125 @@ description: >-
 author: duidwidev
 ---
 
-# duidwidev-novel: Sistem Penulisan Novel Slowburn & Worldbuilding
+# duidwidev-novel: Serialized Novel & Slowburn Worldbuilding System
 
-Sistem terpadu pembuatan novel serial slowburn dari fondasi semesta hingga naskah prosa final, dikembangkan oleh **duidwidev**. Sistem ini dirancang untuk menghasilkan narasi yang runtut, kaya gestur mikro, bebas *AI-slop*, serta memberikan kendali penuh kepada pengguna di setiap tahap.
+An integrated system for writing serialized slowburn novels from foundational world mechanics to finished prose manuscripts, created by **duidwidev**. This framework is engineered to deliver grounded, micro-gesture-rich narratives free of AI slop, granting the user full modular control at every stage.
 
 ---
 
-## 🗺️ Peta Alur Kerja 6 Tahap (Master Pipeline)
+## 🗺️ Master Pipeline (6 Sequential Stages)
 
 ```mermaid
 graph TD
-    A[Tahap 1: World Rules Creation] --> B[Tahap 2: Lore Bible Creation]
-    B --> C[Tahap 3: Character Bible Creation]
-    C --> D[Tahap 4: Grand Story Outline]
-    D --> E[Tahap 5: Logline & Dialogue Maker]
-    E --> F[Tahap 6: Narration & Merger Prosa Final]
+    A[Stage 1: World Rules Creation] --> B[Stage 2: Lore Bible Creation]
+    B --> C[Stage 3: Character Bible Creation]
+    C --> D[Stage 4: Story Outline Creation]
+    D --> E[Stage 5: Logline & Dialogue Maker]
+    E --> F[Stage 6: Narration & Merger Final Prose]
 ```
 
-Panduan lengkap alur kerja master dapat dirujuk pada: [master_workflow.md](./references/master_workflow.md).
+Full master workflow documentation: [master_workflow.md](./references/master_workflow.md).
 
 ---
 
-## 🚀 Alur Eksekusi Tahap demi Tahap (Step-by-Step Instructions)
+## 🚀 Step-by-Step Execution Protocol
 
-### 🏛️ TAHAP 1: World Rules Creation (Aturan Dasar Semesta)
-1. **Konfirmasi Basis Semesta:** Tanyakan kepada user apakah dunianya:
-   - *Full Real-Life* (Dunia nyata murni 100%).
-   - *Semi-Real Life + Fiksi* (Dunia nyata dengan 1-2 variabel fiksi/anomali).
-   - *Full Fictional RPG World* (Semesta fiksi penuh dengan ras, sihir, kelas, dan guild).
-2. **Definisikan 5 Pilar Semesta:**
-   - Struktur ras & friksi sosial (fisiologi, diskriminasi pekerjaan/penginapan, variasi regional).
-   - Sistem energi mana internal & teknologi baterai batu mana.
-   - Sistem lisensi 3 kelas (*Vanguard, Spellcaster, Striker*) dan ujian resmi S1.
-   - Ekonomi guild (isu *oversupply* petualang yang menekan harga quest).
-   - Ekologi monster (*Utility vs Dangerous vs Crisis vs Protected*).
-3. **Dokumentasi & Template:**
-   - Panduan: [world_rules_framework.md](./references/world_rules_framework.md)
+### 🏛️ STAGE 1: World Rules Creation (Universal Mechanics)
+1. **Confirm World Baseline:** Ask the user whether their setting is:
+   - *Full Real-Life* (100% real-world physics and sociology).
+   - *Semi-Real Life + Fiction* (Real world with 1-2 fictional variables).
+   - *Full Fictional RPG World* (Complete universe with magic, races, classes, and guilds).
+2. **Define the 5 Core System Pillars:**
+   - Racial structures & social tensions (e.g. Human vs. Beastmen physiology and regional policies).
+   - Biological internal mana & external mana-battery storage technology.
+   - 3 Class archetypes (*Vanguard, Spellcaster, Striker*) and academic-level S1 licensing exams.
+   - Guild labor economics (oversupply of adventurers driving down quest payouts).
+   - Monster ecology and threat matrices (*Utility vs. Dangerous vs. Crisis vs. Protected*).
+3. **Documentation & Resources:**
+   - Guide: [world_rules_framework.md](./references/world_rules_framework.md)
    - Template: [world_rules_template.md](./resources/world_rules_template.md)
-   - Evaluasi: [world_rules_evaluation.md](./evaluations/world_rules_evaluation.md)
+   - Evaluation: [world_rules_evaluation.md](./evaluations/world_rules_evaluation.md)
 
 ---
 
-### 📜 TAHAP 2: Lore Bible Creation (Kanon Spesifikasi Dunia & Kurasi)
-1. **Aturan Mutlak Kurasi User (*User Curation Gate*):** DILARANG menambahkan item, tempat, atau aturan baru tanpa persetujuan eksplisit user.
-2. **Konvensi Penamaan Otentik (Anti-Generic Compound Words):**
-   - ❌ *Dilarang:* Nama generik gabungan kata (*Eastview Horizon, Blackclaw Monster*).
-   - ✅ *Wajib:* Nama 1 kata unik / Latin-root (*seperti 'Irthiniris', 'Valdris', 'Morvath'*).
-3. **Pencatatan Spesifikasi Konkret:**
-   - Item/Artefak, Entitas/Makhluk, Rules/Hukum Alam, Tempat/Environment, Relasi Faksi, dan Sejarah.
-4. **Dokumentasi & Template:**
-   - Panduan: [lore_bible_guide.md](./references/lore_bible_guide.md)
+### 📜 STAGE 2: Lore Bible Creation (Curated Canon)
+1. **Mandatory User Curation Gate:** Strictly PROHIBITED from adding new items, places, or rules without explicit user approval.
+2. **Authentic Naming Conventions (Anti-Generic Compound Words):**
+   - ❌ *Banned:* Cliché compound phrases (*Eastview Horizon, Blackclaw Monster*).
+   - ✅ *Enforce:* Distinctive 1-word / Latin-root names (*'Irthiniris', 'Valdris', 'Morvath'*).
+3. **Concrete Specifications:** Record tangible functions, hard limits, and usage costs.
+4. **Documentation & Resources:**
+   - Guide: [lore_bible_guide.md](./references/lore_bible_guide.md)
    - Template: [lore_bible_template.md](./resources/lore_bible_template.md)
-   - Evaluasi: [lore_bible_evaluation.md](./evaluations/lore_bible_evaluation.md)
+   - Evaluation: [lore_bible_evaluation.md](./evaluations/lore_bible_evaluation.md)
 
 ---
 
-### 👤 TAHAP 3: Character Bible Creation (Master Branding Karakter)
-1. **Wawancara Interaktif (Multi-Choice):** Agent wajib aktif menawarkan opsi-opsi terkurasi kepada user saat menggali detail karakter.
-2. **Rancang 6 Pilar Branding Super-Kuat:**
-   - *Iconic Lines:* Gaya tutur khas non-cringe dan tidak repetitif.
-   - *Iconic Behaviour:* Gestur mikro bawah sadar saat berpikir atau cemas.
-   - *Visual Anchor / Wears:* Siluet fisik atau benda khas yang melekat.
-   - *Responses to Triggers & Trauma:* Reaksi emosional berakar memori masa lalu.
-   - *Dynamic Motivation:* Tujuan jangka pendek dan jangka panjang yang berkembang.
-   - *Moral Compass:* Batas moral yang pantang dilanggar (*red lines*).
-3. **Audit Keselarasan Lore:** Validasi ras, afinitas sihir, dan status faksi terhadap Lore Bible.
-4. **Dokumentasi & Template:**
-   - Panduan: [character_bible_guide.md](./references/character_bible_guide.md)
+### 👤 STAGE 3: Character Bible Creation (Master Branding)
+1. **Interactive Multi-Choice Interviews:** Proactively offer curated options when fleshing out characters.
+2. **Structure the 6 Core Branding Pillars:**
+   - *Iconic Lines:* Distinct vocal cadence free of cringe, forced catchphrases.
+   - *Iconic Behaviour:* Subconscious physical micro-habits when thinking or stressed.
+   - *Visual Anchor / Wears:* Distinct physical trait, relic, or silhouette.
+   - *Dynamic Triggers & Trauma:* Emotional reactions rooted in specific backstory memories.
+   - *Dynamic Motivation:* Short-term goals and ultimate desires that evolve over time.
+   - *Moral Compass:* Absolute red lines that will never be crossed.
+3. **Lore Compatibility Audit:** Ensure 100% alignment with the Lore Bible.
+4. **Documentation & Resources:**
+   - Guide: [character_bible_guide.md](./references/character_bible_guide.md)
    - Template: [character_bible_template.md](./resources/character_bible_template.md)
-   - Evaluasi: [character_bible_evaluation.md](./evaluations/character_bible_evaluation.md)
+   - Evaluation: [character_bible_evaluation.md](./evaluations/character_bible_evaluation.md)
 
 ---
 
-### 🗺️ TAHAP 4: Story Outline Creation (Grand Story Roadmap)
-1. **Sintesis 3 Pilar:** Padukan motivasi karakter (*Character Bible*), panggung dunia (*Lore Bible*), dan rintangan sistem (*World Rules*).
-2. **Petakan Alur Awal s/d Akhir Cerita:**
-   - Babak 1 (Setup), Babak 2 (World Friction), Babak 3 (Crisis), Babak 4 (Resolution).
-3. **Bagi 5 Milestones Wajib per Bab:**
+### 🗺️ STAGE 4: Story Outline Creation (Grand Narrative Roadmap)
+1. **3-Pillar Synthesis:** Combine character drives, lore settings, and world rule frictions.
+2. **Map the Full Story Arc:** 4 Narrative Acts (Setup, World Friction, Crisis, Resolution).
+3. **Structure 5 Mandatory Milestones per Chapter:**
    - *Milestone A (Opening) -> Milestone B (Inciting Shift) -> Milestone C (Escalation) -> Milestone D (Climax) -> Milestone E (Ending Hook)*.
-4. **Dokumentasi & Template:**
-   - Panduan: [story_outline_guide.md](./references/story_outline_guide.md)
+4. **Documentation & Resources:**
+   - Guide: [story_outline_guide.md](./references/story_outline_guide.md)
    - Template: [story_outline_template.md](./resources/story_outline_template.md)
-   - Evaluasi: [outline_evaluation.md](./evaluations/outline_evaluation.md)
+   - Evaluation: [outline_evaluation.md](./evaluations/outline_evaluation.md)
 
 ---
 
-### 🎬 TAHAP 5: Logline & Dialogue Maker (Mikro-Beat per Bab)
-1. **Kendali Penuh User:** User memilih bab mana yang ingin dibuat (misal: Bab 1) dan menentukan tingkat kedalaman (misal: 60 beat atau 100+ beat slowburn).
-2. **Format Standar Beat:**
+### 🎬 STAGE 5: Logline & Dialogue Drafting (Chapter-by-Chapter)
+1. **User Control:** The user selects the chapter and specifies granularity (e.g. 60 or 100+ slowburn beats).
+2. **Standard Beat Syntax:**
    ```text
-   mood : [TOKEN_MOOD], place : [LOKASI]
-   [Nomor]. [Kalimat aksi fisik / gestur / interaksi konkret yang jelas dan bebas slop]
+   mood : [MOOD_TOKEN], place : [LOCATION]
+   [Number]. [Concrete physical action / gesture / environmental interaction sentence]
    ```
-3. **8 Token Mood Baku:** `CALM`, `WARMTH`, `UNEASE`, `TENSE`, `PANIC`, `RELIEF`, `MELANCHOLY`, `TRIUMPH`.
-4. **Audit Anomali Emosi (Anti-Whiplash):**
-   - 🚨 *Sandwich Anomaly Dilarang:* `TENSE -> HAPPY -> TENSE` tanpa alasan logis langsung dibatalkan.
-5. **Sisipkan Dialog Luwes:**
-   - Fleksibilitas kuantitas: beat murni aksi (0 dialog), dialog 1 baris, atau multi-dialog saut-sautan basa-basi alami.
-   - Pemanfaatan celotehan santai (*meaningful small talk*) dan bahasa non-verbal naga/makhluk.
-6. **Dokumentasi & Template:**
-   - Panduan: [logline_system.md](./references/logline_system.md) & [dialogue_system.md](./references/dialogue_system.md)
-   - Audit: [outline_direction_audit.md](./references/outline_direction_audit.md) & [character_and_lore_audit.md](./references/character_and_lore_audit.md)
+3. **8 Standardized Mood Tokens:** `CALM`, `WARMTH`, `UNEASE`, `TENSE`, `PANIC`, `RELIEF`, `MELANCHOLY`, `TRIUMPH`.
+4. **Anti-Mood Whiplash Audit:** Prohibit the *Sandwich Anomaly* (`TENSE -> HAPPY -> TENSE`).
+5. **Fluid Dialogue Integration:**
+   - Frequency flexibility: 0-dialogue beats, single lines, or multi-line natural banter.
+   - Incorporate meaningful small talk and creature non-verbal lines.
+6. **Documentation & Resources:**
+   - Guides: [logline_system.md](./references/logline_system.md) & [dialogue_system.md](./references/dialogue_system.md)
+   - Audits: [outline_direction_audit.md](./references/outline_direction_audit.md) & [character_and_lore_audit.md](./references/character_and_lore_audit.md)
    - Template: [dialogue_beat_template.md](./resources/dialogue_beat_template.md)
-   - Evaluasi: [dialogue_evaluation.md](./evaluations/dialogue_evaluation.md)
+   - Evaluation: [dialogue_evaluation.md](./evaluations/dialogue_evaluation.md)
 
 ---
 
-### ✍️ TAHAP 6: Narration & Merger (Prosa Novel Final - Modular per Bab)
-1. **Penggabungan Organik:** Menggabungkan aksi logline, dialog, dan dialog tag menjadi alinea novel utuh. Eksekusi dapat dilakukan bab per bab sesuai permintaan user.
-2. **Filter Bahasa & Anti-AI Slop Ketat:**
-   - **Bahasa Lugas & Jelas:** Tanpa *sugar-coating* dan tanpa metafora puitis berlebihan (*zero purple prose*).
-   - **Bebas Kata Arkais / Tidak Lazim:** Hindari kata kerja sastra berat (*menderai, meruyak, menelikung, melingkupi kalbu*); gunakan kata kerja wajar sehari-hari (*membuka, melirik, mengelus, mendengus, melangkah, menarik, menoleh*).
-3. **Dokumentasi & Template:**
-   - Panduan: [narration_merger_guide.md](./references/narration_merger_guide.md)
+### ✍️ STAGE 6: Narration & Merger (Final Prose - Modular per Chapter)
+1. **Organic Fusion:** Merge logline actions, spoken lines, and speech tags into dynamic novel paragraphs.
+2. **Strict Plain Diction & Anti-Slop Filter:**
+   - **Plain & Grounded Language:** Zero purple prose, zero sugar-coating.
+   - **Zero Archaic / Obscure Verbs:** Use natural everyday verbs (*opened, glanced, stroked, snorted, stepped, pulled, held, turned*).
+3. **Documentation & Resources:**
+   - Guide: [narration_merger_guide.md](./references/narration_merger_guide.md)
    - Template: [prose_merger_template.md](./resources/prose_merger_template.md)
-   - Evaluasi: [narration_evaluation.md](./evaluations/narration_evaluation.md)
+   - Evaluation: [narration_evaluation.md](./evaluations/narration_evaluation.md)
 
 ---
 
-## 🛡️ 5 Golden Rules duidwidev-novel
+## 🛡️ The 5 Golden Rules of duidwidev-novel
 
-1. **User Curation Gate:** Wajib meminta izin user sebelum mendaftarkan karakter bernama baru atau entri Lore Bible kanon.
-2. **Authentic Naming:** Selalu gunakan nama distingtif 1 kata / Latin-root (*Irthiniris*), bukan nama generik gabungan kata (*Eastview/Blackclaw*).
-3. **Plain & Grounded Diction:** Deskripsi fokus pada aksi fisik nyata dan fakta lingkungan tanpa kata-kata *fancy* kosong atau puitis berlebihan.
-4. **Meaningful Small Talk:** Basa-basi santai adalah kebutuhan nyata untuk memperkuat *bonding & chemistry* karakter.
-5. **Modular Chapter-by-Chapter Execution:** Logline dan narasi prosa dieksekusi bab per bab secara bertahap sesuai kendali penuh user.
+1. **User Curation Gate:** Always obtain user confirmation before adding named characters or canonizing lore.
+2. **Authentic Naming:** Enforce distinct 1-word / Latin-root names (*Irthiniris*); ban generic compound words (*Eastview/Blackclaw*).
+3. **Plain & Grounded Diction:** Focus on physical reality without empty fancy words or purple prose.
+4. **Meaningful Small Talk:** Casual character banter is an essential requirement for believable chemistry.
+5. **Modular Chapter-by-Chapter Execution:** Loglines and prose conversion can be executed modularly chapter by chapter.

@@ -1,21 +1,21 @@
-# Indeks Pembuatan Lore Bible (Worldbuilding Framework)
+# Lore Bible Creation Index (Worldbuilding Canon Framework)
 
-Folder ini berisi seluruh dokumen panduan, template, dan sistem evaluasi untuk merancang **Lore Bible** dunia novel.
+This directory contains all guides, templates, and evaluation systems for structuring the **Lore Bible** of your novel universe.
 
 ---
 
-## 📚 Daftar Dokumen di Folder Ini
+## 📚 Documents in this Directory
 
 1. **[LORE_BIBLE_GUIDE_AND_AUDIT.md](./LORE_BIBLE_GUIDE_AND_AUDIT.md)**
-   - **Aturan Mutlak Kurasi User:** Protokol wajib konfirmasi/bertanya ke user sebelum menambah/mengedit entri lore.
-   - **Syarat Alasan Kuat & Kontribusi:** Dilarang menambah entri tanpa peran nyata atau hanya dengan kata-kata *fancy* kosong.
-   - **Konvensi Penamaan Otentik:** Larangan nama generik gabungan kata (*Eastview / Blackclaw*); wajib menggunakan nama 1 kata distingtif / Latin-root (*Irthiniris, Valdris*).
-   - **Taksonomi Spesifikasi:** *Item, Entitas, Objek, Rules, Tempat, Relasi Sosial, Environment, dan Sejarah*.
-   - **4 Pilar Audit Anti-Kontradiksi:** Pencegahan Retcon, Plot Hole, dan Magic Inconsistency.
+   - **Mandatory User Curation Gate:** Absolute protocol requiring user confirmation before canonizing any lore entry.
+   - **Strong Justification & Tangible Contribution:** Ban on empty decorative trivia and pretentious fancy vocabulary.
+   - **Authentic Naming Conventions:** Prohibition of generic English compound words (*Eastview / Blackclaw*); enforcement of distinct 1-word or Latin-root names (*Irthiniris, Valdris*).
+   - **Specification Taxonomy:** *Items, Entities, Objects, Rules, Places, Social Relations, Environment, and History*.
+   - **4 Anti-Contradiction Audits:** Retcon, plothole, and power-creep prevention.
 
 2. **[LORE_BIBLE_TEMPLATE.md](./LORE_BIBLE_TEMPLATE.md)**
-   - Template resmi kanon dunia modular dengan kolom alasan keberadaan, batasan konkret, dan contoh penamaan otentik.
+   - Master canon template with dedicated columns for existence justification, hard constraints, and authentic naming examples.
 
 3. **[LORE_BIBLE_EVALUATION.md](./LORE_BIBLE_EVALUATION.md)**
-   - Rubrik metrik penilaian kelayakan Lore Bible (4 dimensi evaluasi).
-   - Lembar Scorecard dan 3 Uji Ketahanan Logika (*Stress-Test Skenario*).
+   - Evaluation rubric for worldbuilding depth (4 assessment dimensions).
+   - Scorecard form and 3 World Logic Stress Tests.

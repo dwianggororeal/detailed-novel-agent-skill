@@ -1,60 +1,60 @@
-# Template Resmi Grand Story Outline (Peta Alur Awal hingga Tamat)
+# Official Grand Story Outline Template (Narrative Roadmap)
 
-Dokumen ini adalah template master untuk merancang **Peta Alur Cerita Keseluruhan** dari awal babak hingga akhir cerita, memadukan elemen dari **Character Bible**, **Lore Bible**, dan **World Rules**.
-
----
-
-# [JUDUL NOVEL / PROYEK]
-
-- **Premis Utama Cerita:** *[1-2 kalimat ringkasan inti perjalanan dan konflik besar cerita]*
-- **Tujuan Akhir Tokoh Utama:** *[Apa yang ingin diselesaikan pada akhir cerita]*
+This document is the master template for planning the **Grand Story Arc from Beginning to Finale**, combining the **Character Bible**, **Lore Bible**, and **World Rules**.
 
 ---
 
-## 1. Ikhtisar Babak Cerita (Overall Story Arc)
+# [NOVEL / PROJECT TITLE]
+
+- **Core Premise:** *[1-2 sentences summarizing the central journey and overarching conflict]*
+- **Protagonist Ultimate Goal:** *[What the protagonist aims to resolve by the end of the story]*
+
+---
+
+## 1. Overall Story Arc Overview (4 Narrative Acts)
 
 ```text
-[STRUKTUR 4 BABAK]
-├── BABAK 1: Awal & Pemantik (Setup & Inciting Incident)
-├── BABAK 2: Perjalanan & Rintangan Dunia (Rising Action & World Friction)
-├── BABAK 3: Krisis & Titik Balik (Major Crisis & Climax Preparation)
-└── BABAK 4: Klimaks & Resolusi Akhir (Grand Climax & Resolution)
+[4-ACT NARRATIVE STRUCTURE]
+├── ACT 1: Setup & Inciting Incident (Beginning)
+├── ACT 2: Journey & World Friction (Rising Action)
+├── ACT 3: Major Crisis & Dark Night of the Soul (Turning Point)
+└── ACT 4: Grand Climax & Resolution (Finale)
 ```
 
 ---
 
-## 2. Peta Rangkaian Bab (Chapter Roadmap: Bab 1 s/d Akhir)
+## 2. Chapter Roadmap (Chapter 1 to Finale)
 
-### 📌 BABAK 1: Pengenalan & Pemantik
-- **Bab 1: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Kondisi awal karakter, status quo, dan atmosfer pertama]`
-  - *Target Akhir Bab:* `[Peristiwa penutup yang memicu langkah berikutnya]`
-- **Bab 2: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Masuknya informasi baru / pertemuan awal dengan aturan dunia]`
-  - *Target Akhir Bab:* `[Keputusan untuk berangkat atau mengambil quest]`
+### 📌 ACT 1: Setup & Inciting Incident
+- **Chapter 1: [Chapter Title / Focus]**
+  - *Core Direction:* `[Initial status quo, environment, character bonding]`
+  - *Ending Target:* `[Inciting event driving them forward]`
+- **Chapter 2: [Chapter Title / Focus]**
+  - *Core Direction:* `[First encounter with world rules / accepting initial quest]`
+  - *Ending Target:* `[Departure from familiar comfort zone]`
 
-### 📌 BABAK 2: Eskalasi & Gesekan Aturan Dunia
-- **Bab 3: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Hambatan birokrasi guild, ujian lisensi, atau diskriminasi sosial]`
-- **Bab 4: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Eksplorasi medan liar / perburuan monster pertama]`
-- **Bab 5 s/d N:** `[Lanjutkan rincian bab sesuai kebutuhan arc cerita...]`
+### 📌 ACT 2: Rising Action & World Friction
+- **Chapter 3: [Chapter Title / Focus]**
+  - *Core Direction:* `[Guild licensing exam, racial tension, or quest competition]`
+- **Chapter 4: [Chapter Title / Focus]**
+  - *Core Direction:* `[Wilderness exploration / first major beast confrontation]`
+- **Chapters 5 to N:** `[Continue detailing chapters as necessary...]`
 
-### 📌 BABAK 3: Titik Balik & Krisis
-- **Bab [N]: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Konflik memuncak, batasan mana terkuras habis, atau pengkhianatan faksi]`
+### 📌 ACT 3: Turning Point & Major Crisis
+- **Chapter [N]: [Chapter Title / Focus]**
+  - *Core Direction:* `[High-stakes crisis, mana exhaustion, or faction betrayal]`
 
-### 📌 BABAK 4: Konfrontasi Puncak & Ending
-- **Bab [Akhir - 1]: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Pertempuran / penyelesaian sengketa utama]`
-- **Bab [Akhir]: [Judul / Fokus Bab]**
-  - *Arah & Inti Bab:* `[Kondisi baru dunia, hubungan akhir karakter, dan penutup cerita]`
+### 📌 ACT 4: Grand Climax & Resolution
+- **Chapter [Finale - 1]: [Chapter Title / Focus]**
+  - *Core Direction:* `[Decisive confrontation / resolving central mystery]`
+- **Chapter [Finale]: [Chapter Title / Focus]**
+  - *Core Direction:* `[New world order, character fates, and conclusive resolution]`
 
 ---
 
-## 3. Petunjuk Eksekusi Logline (User Control)
+## 3. Logline Execution Protocol (User-Driven)
 
-Dokumen ini menjadi acuan utama. Saat Anda ingin menulis bab tertentu:
-1. Pilih nomor bab di atas (contoh: *"Mari kita kerjakan logline Bab 1"*).
-2. Tentukan tingkat kedalaman (contoh: *"Bikin 60 beat"*).
-3. Logline akan digenerate dalam format 1 kalimat aksi konkret per beat di modul `logline_skill_framework`.
+This document serves as your macro compass. When ready to write:
+1. Pick a chapter number (e.g., *"Let's draft Chapter 1"*).
+2. Set your desired granularity (e.g., *"Make 60 slowburn beats"*).
+3. The engine generates sequential 1-sentence action beats in `logline_skill_framework`.

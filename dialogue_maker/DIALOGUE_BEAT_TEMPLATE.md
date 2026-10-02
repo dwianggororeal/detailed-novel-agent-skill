@@ -1,73 +1,66 @@
-# Template Resmi Dialogue-Infused Logline (Logline Berdialog Luwes)
+# Official Dialogue-Infused Logline Template
 
-Dokumen ini adalah template master untuk menyusun **Logline Berdialog Luwes**, yang memadukan beat tanpa dialog, dialog tunggal, dan percakapan multi-baris (saut-sautan / basa-basi akrab) secara alami.
-
----
-
-# [JUDUL BAB]: LOGLINE & DIALOGUE BREAKDOWN
+This document provides templates and examples of **Fluid Dialogue-Infused Loglines**, blending action-only beats, single lines, and multi-line casual banter.
 
 ---
 
-## 1. Pola Ragam Format Beat
-
-### Pola A: Beat Murni Aksi / Keheningan (0 Dialog)
-```text
-mood : [TOKEN_MOOD], place : [LOKASI]
-[Nomor]. [Kalimat deskripsi aksi fisik, observasi lingkungan, atau ketegangan tanpa ucapan]
-```
-
-### Pola B: Beat Dialog Tunggal (1 Baris)
-```text
-mood : [TOKEN_MOOD], place : [LOKASI]
-[Nomor]. [Aksi pengantar] -> [Karakter]: "[Kalimat Ucapan]" ([Tag nada / gestur]).
-```
-
-### Pola C: Beat Multi-Dialog / Saut-Sautan Basa-Basi (2+ Baris)
-```text
-mood : [TOKEN_MOOD], place : [LOKASI]
-[Nomor]. [Aksi pengantar interaksi]:
-   - [Karakter A]: "[Kalimat A]" ([Gestur A])
-   - [Karakter B]: "[Kalimat B]" ([Gestur B])
-   - [Karakter A]: "[Kalimat C / Respons]" ([Aksi penutup])
-```
+# [CHAPTER TITLE]: LOGLINE & DIALOGUE BREAKDOWN
 
 ---
 
-## 2. Contoh Sekuensial Nyata (Campuran Luwes: Aksi, Basa-Basi, & Saut-Sautan)
+## 1. Syntax Formats
 
+### Pattern A: Pure Action / Silence Beat (0 Dialogue)
 ```text
-mood : CALM, place : Kamar tidur Raya / Ranjang kayu
-1. Udara pagi terasa sejuk, embun tipis masih menempel di kaca jendela saat Raya membuka mata perlahan. (Beat Murni Aksi)
+mood : [MOOD_TOKEN], place : [LOCATION]
+[Number]. [Concrete action, environmental observation, or tense movement sentence]
+```
 
-mood : WARMTH, place : Kamar tidur Raya / Ranjang kayu
-2. Rendy si naga kecil menindihkan moncongnya ke dada Raya, kelopak matanya terpejam rapat menolak bergerak dari kasur hangat. (Beat Murni Aksi)
+### Pattern B: Single-Line Beat (1 Line)
+```text
+mood : [MOOD_TOKEN], place : [LOCATION]
+[Number]. [Lead-in action] -> [Character]: "[Spoken Line]" ([Speech tag / gesture]).
+```
 
-mood : WARMTH, place : Kamar tidur Raya / Ranjang kayu
-3. Raya mengelus punggung sisik Rendy lalu berbisik -> Raya: "Rendy... berat, ayo bangun." (nadanya serak khas orang baru bangun tidur). (Beat Dialog Tunggal)
-
-mood : WARMTH, place : Kamar tidur Raya / Ranjang kayu
-4. Rendy mengerucutkan bibirnya dan mengibaskan ekor pelan -> Rendy: *[Dengkuran malas bernada merajuk]* (menarik ujung selimut menutupi kepalanya). (Beat Non-Verbal)
-
-mood : WARMTH, place : Kamar tidur Raya / Ranjang kayu
-5. Raya tertawa kecil lalu menarik selimut itu dari wajah Rendy: (Beat Multi-Dialog / Basa-Basi Akrab)
-   - Raya: "Nanti siang kita kehabisan sup jamur madu di pasar, lho." (sambil mencubit pelan pipi naganya).
-   - Rendy: *[Kicauan pendek kaget]* (langsung membuka kedua matanya lebar-lebar).
-   - Raya: "Makanya bangun sekarang. Mau ikut masak tidak?" (beranjak duduk di tepi ranjang).
-   - Rendy: *[Mendengus semangat]* (melompat turun ke lantai kayu mendahului Raya).
-
-mood : CALM, place : Dapur kecil lantai bawah
-6. Suasana dapur hening hanya diiringi suara gemericik air saat Raya mencuci periuk tanah liat di dekat wastafel. (Beat Murni Aksi)
-
-mood : UNEASE, place : Dapur kecil lantai bawah / Pintu samping
-7. Rendy tiba-tiba menghentikan langkahnya di dekat pintu samping, sisik di punggung lehernya berdiri tegak. (Beat Murni Aksi)
-
-mood : TENSE, place : Dapur kecil lantai bawah / Pintu samping
-8. Raya meletakkan periuk ke meja lalu mendekat dengan langkah sangat pelan -> Raya: "Ssst... jangan bergerak." (berbisik tegang sambil menatap bayangan di bawah celah pintu). (Beat Dialog Tunggal)
+### Pattern C: Multi-Line Banter / Small-Talk Beat (2+ Lines)
+```text
+mood : [MOOD_TOKEN], place : [LOCATION]
+[Number]. [Lead-in interaction]:
+   - [Character A]: "[Line A]" ([Gesture A])
+   - [Character B]: "[Line B]" ([Gesture B])
+   - [Character A]: "[Line C / Response]" ([Closing action])
 ```
 
 ---
 
-## 3. Catatan Penggunaan
+## 2. Concrete Sequential Sample (Chapter 1 with Raya & Rendy)
 
-- **Jangan Memaksakan Dialog:** Jika adegan lebih dramatis atau hidup dalam keheningan, biarkan beat berjalan murni melalui aksi fisik dan deskripsi suasana.
-- **Manfaatkan Basa-Basi:** Gunakan pola multi-dialog untuk momen santai/intim guna memperdalam ikatan antar karakter.
+```text
+mood : CALM, place : Raya's Bedroom / Wooden Bed
+1. The morning air was cool, thin frost clinging to the windowpane as Raya slowly opened her eyes. (Action Beat)
+
+mood : WARMTH, place : Raya's Bedroom / Wooden Bed
+2. Rendy the small dragon rested his snout on Raya's chest, eyes clamped shut, refusing to leave the warm bed. (Action Beat)
+
+mood : WARMTH, place : Raya's Bedroom / Wooden Bed
+3. Raya stroked the scales behind Rendy's horns and whispered -> Raya: "Rendy... you're heavy, get up." (her voice raspy with sleep). (Single Line)
+
+mood : WARMTH, place : Raya's Bedroom / Wooden Bed
+4. Rendy scrunched up his snout and flicked his tail -> Rendy: *[Sleepy disgruntled purr]* (pulling the blanket over his head). (Non-Verbal Beat)
+
+mood : WARMTH, place : Raya's Bedroom / Wooden Bed
+5. Raya chuckled softly and tugged the blanket back: (Multi-Line Small Talk)
+   - Raya: "If we're late, the market will run out of honey mushroom stew." (pinching his cheek gently).
+   - Rendy: *[Short startled chirp]* (eyes snapping wide open).
+   - Raya: "Then get up now. Are you helping with breakfast or not?" (swinging her legs over the bed).
+   - Rendy: *[Enthusiastic snort]* (leaping onto the floorboards ahead of her).
+
+mood : CALM, place : Downstairs Kitchen
+6. The kitchen was quiet save for the soft trickle of water as Raya rinsed the clay pot by the basin. (Action Beat)
+
+mood : UNEASE, place : Downstairs Kitchen / Side Door
+7. Rendy froze abruptly near the side door, the scales along the back of his neck standing straight up. (Action Beat)
+
+mood : TENSE, place : Downstairs Kitchen / Side Door
+8. Raya placed the pot down without a sound and stepped forward cautiously -> Raya: "Shh... don't move." (whispering tensely toward the door gap). (Single Line)
+```

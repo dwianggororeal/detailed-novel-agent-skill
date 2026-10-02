@@ -1,80 +1,78 @@
-# Panduan & Arsitektur World Rules Creation (Aturan Dasar Semesta)
+# World Rules Architecture & Framework Guide
 
-Dokumen ini mendefinisikan framework pembentukan **World Rules** (Hukum & Dinamika Semesta), mulai dari penentuan basis realisme, opsi fiksi tambahan, hingga sistem fiksi penuh (*Full Fictional RPG World*) yang ditranslasikan secara generik.
+This document defines the framework for formulating **World Rules** (Universal Laws & Mechanics), from selecting realism baselines to designing full-scale fictional RPG systems.
 
 ---
 
-## 1. Protokol Gate Pertama: Identifikasi Basis Dunia (Tanya User Dulu)
+## 1. Initial Gate Protocol: Clarifying the World Baseline (Ask User First)
 
-Sebelum merancang aturan dunia, agent **WAJIB menanyakan klasifikasi semesta kepada User**:
+Before designing mechanics, the agent **MUST ask the user to specify their universe baseline**:
 
 ```text
-[KLARIFIKASI BASIS ATURAN DUNIA]
-Mari kita tentukan fondasi realisme dunia yang ingin Anda buat:
+[WORLD RULES BASELINE CLARIFICATION]
+Let's determine the foundational realism of your world:
 
-1. Opsi A: Full Real-Life (Dunia Nyata Murni)
-   - Mengikuti hukum fisika, biologi, geografi, dan sosiologi bumi nyata 100%. 
-   - (Jika memilih ini: Tidak ada aturan sihir/monster tambahan yang perlu dibuat).
+1. Option A: Full Real-Life (100% Real World)
+   - Follows real-world physics, biology, geography, and sociology completely.
+   - (If selected: No additional magic systems or monster ecologies are needed).
 
-2. Opsi B: Semi-Real Life + Tambahan Fiksi (Low Fantasy / Sci-Fi Twist)
-   - Berbasis dunia nyata, namun memiliki 1-2 variabel fiksi spesifik (contoh: keberadaan satu zat energi baru, teknologi mutasi rahasia, atau fenomena cuaca anomali).
+2. Option B: Semi-Real Life + Fictional Twist (Low Fantasy / Sci-Fi Twist)
+   - Based on the real world, but introduces 1-2 specific fictional variables (e.g. a novel energy substance, a secret mutation technology, or an anomalous weather phenomenon).
 
-3. Opsi C: Full Fictional / High Fantasy RPG World (Dunia Fiksi Penuh)
-   - Memiliki hukum alam independen, keberadaan ras beragam (manusia, beastmen, dll.), sistem sihir/mana terstruktur, institusi guild/pekerjaan, hierarki kelas, dan ekosistem monster.
+3. Option C: Full Fictional / High Fantasy RPG World (Complete Fictional Universe)
+   - Independent natural laws, diverse races (Humans, Beastmen, etc.), structured magic/mana systems, adventurer guild institutions, rigid class hierarchies, and monster threat matrices.
 
--> Dari ketiga opsi di atas, jenis fondasi dunia manakah yang ingin Anda gunakan?
+-> Which of these three options matches your vision for the story?
 ```
 
 ---
 
-## 2. Arsitektur Pola Semesta Fiksi Generik (*Full Fictional RPG Pattern*)
-
-Berdasarkan pola rancangan sistem dunia mendalam, semesta fiksi terbagi menjadi 6 pilar aturan inti:
+## 2. Generic Fictional RPG Architecture (6 Core Pillars)
 
 ```mermaid
 graph TD
-    A[Fondasi World Rules] --> B[1. Ras & Friksi Sosial]
-    A --> C[2. Sistem Sihir / Energi & Baterai Mana]
-    A --> D[3. Sistem Kelas & Sertifikasi Lisensi]
-    A --> E[4. Institusi Guild & Ekonomi Tenaga Kerja]
-    A --> F[5. Ekologi Monster & Urgensi Ancaman]
-    A --> G[6. Geografi & Zona Lingkungan]
+    A[World Rules Foundations] --> B[1. Races & Social Friction]
+    A --> C[2. Energy Systems & Mana Batteries]
+    A --> D[3. Class Systems & Licensing Exams]
+    A --> E[4. Guild Institutions & Labor Markets]
+    A --> F[5. Monster Ecology & Threat Matrices]
+    A --> G[6. Geography & Environmental Zones]
 ```
 
-### 1. Ras, Anatomi & Ketegangan Sosial (Racial & Social Tensions)
-- **Dominasi Ras:** Pembagian kekuasaan politik (misal: manusia mendominasi birokrasi & hukum).
-- **Variasi Anatomi & Genetik:** Ras sekunder (misal: ras berkarakter hewan/beastmen dengan keunggulan fisik 1.2x, perkembangan otot cepat, namun ciri instinctual purba mulai memudar akibat modernisasi/overpopulasi).
-- **Friksi Sosial & Stereotipe Laten:** Polarisasi antar ras, stereotipe komplotan tertutup, diskriminasi pekerjaan/penginapan di wilayah tertentu, dan variasi regional (ada pulau yang toleran, tirani, atau segregasi ketat).
+### 1. Races, Anatomy & Social Friction
+- **Racial Dominance:** Political distribution of power (e.g., humans dominating government, bureaucracy, and guild legal structures).
+- **Anatomical & Genetic Variants:** Secondary races (e.g., humanoid beastmen with animal traits, 1.2x physical strength, rapid muscle hypertrophy, but extinct ancient instincts due to modern overpopulation).
+- **Social Tensions & Latent Stereotypes:** Racial polarization, in-group favoritism, job and accommodation discrimination in certain regions, and geographic variations (tolerant islands, tyrannical regimes, or strict segregation).
 
-### 2. Sistem Energi / Sihir Terukur (Measurable Magic System)
-- **Sumber Daya Internal:** Mana biologis dalam tubuh yang dapat dilatih batas kapasitasnya (*workout scaling*).
-- **Media Penyimpan Eksternal (Mana Battery):** Batu mana / kristal penyerap energi yang berfungsi seperti baterai eksternal (memerlukan regenerasi tubuh setelah diserap, atau diperjualbelikan sebagai komoditas jasa pengisian).
-- **Biaya & Keterbatasan Fisik:** Penggunaan melampaui batas (*overload*) menyebabkan kelelahan akut atau gangguan saraf permanen.
+### 2. Measurable Energy / Magic System
+- **Internal Biological Mana:** Bodily energy accessible to everyone through training (*workout scaling*).
+- **External Storage Technology (Mana Battery):** Special mana stones that absorb and store reserve mana like batteries (requiring full user recovery after absorption or commercial recharging services).
+- **Hard Limits & Physical Backlash:** Overuse beyond bodily capacity causes acute physical exhaustion, mana fever, or permanent neural damage.
 
-### 3. Sistem Kelas & Standar Sertifikasi (Rigorous Class System)
-- **3 Arketipe Utama:**
-  1. *Vanguard* (Pertahanan & Latihan Fisik Berat: Tank, Warrior, Knight).
-  2. *Spellcaster* (Manipulasi Energi & Integrasi Teknologi: Mage, Sorcerer, Enchanter, Healer).
-  3. *Striker* (Kelincahan & Presisi: Assassin, Marksman, Rogue, Duelist).
-- **Birokrasi Kelas:** Mendapatkan lisensi kelas resmi memerlukan ujian ketat (setara gelar akademik/S1), sayembara khusus, atau turnamen resmi. Pendaftaran kelas terikat pada guild tertentu untuk mencegah pendaftaran ganda (*anti-kutu loncat*).
+### 3. Class Systems & Formal Licensing Examinations
+- **3 Primary Archetypes:**
+  1. *Vanguard* (Heavy Physical Conditioning & Defense: Tank, Warrior, Knight).
+  2. *Spellcaster* (Energy Manipulation & Tech Integration: Mage, Sorcerer, Enchanter, Healer).
+  3. *Striker* (Agility, Speed & Precision: Assassin, Marksman, Rogue, Duelist).
+- **Class Bureaucracy:** Official class licensing is formalized like a university degree (S1 equivalent), requiring rigorous exams, tournaments, or royal contests. Class registration is bound to specific guilds to prevent multi-guild hopping.
 
-### 4. Sistem Guild & Dinamika Ekonomi Petualang (Adventurer Labor Market)
-- **Dinamika Oversupply:** Pasokan petualang yang berlebih di kota/pulau tertentu menyebabkan penurunan nilai imbalan quest (*labor surplus*).
-- **Regulasi Ketat Quest:** Syarat pendaftaran party yang ketat (akibat sejarah kecelakaan masa lalu), restriksi lintas guild, dan sistem penalti hadiah.
+### 4. Guild Institutions & Labor Market Economics
+- **Labor Oversupply:** Adventurer oversupply in major metropolitan centers driving down quest rewards (*labor surplus*).
+- **Strict Quest Regulations:** Mandatory party registration (born from past disaster histories), cross-guild restrictions, and reward penalties.
 
-### 5. Ekologi Monster & Matriks Ancaman (Threat & Utility Matrix)
-- **Tingkat Populasi:** Overpopulasi, seimbang, terancam punah, hingga kategori langka/mitos.
-- **Kategori Pemanfaatan vs Bahaya:**
-  - *Utility:* Monster yang dipanen untuk bahan masakan, kulit pelindung, atau material alkimia.
-  - *Threat:* Bahaya tingkat lokal/kota hingga ancaman bencana global.
-  - *Protected:* Spesies yang dilindungi hukum dan dilarang diburu.
+### 5. Monster Ecology & Threat Matrices
+- **Population Tiers:** Overpopulated, balanced, endangered, or legendary/mythical.
+- **Utility vs Threat Matrix:**
+  - *Utility:* Harvestable for cooking ingredients, leather armor, or alchemy reagents.
+  - *Threat:* Ranging from localized hazards to city-destroying disaster crises.
+  - *Protected:* Sacred creatures legally shielded from hunting.
 
 ---
 
-## 3. Checklist Pre-Finalisasi World Rules
+## 3. Pre-Finalization Checklist
 
-- [ ] Basis dunia (Real vs Semi vs Full Fiction) telah dikonfirmasi oleh user.
-- [ ] Batasan sihir memiliki biaya dan risiko fisik yang jelas (*hard limits*).
-- [ ] Ketegangan ras dan dinamika sosial memiliki akar historis yang konsisten.
-- [ ] Sistem guild dan ekonomi pekerjaan memiliki aturan birokrasi yang logis.
-- [ ] Ekologi monster dan zonasi wilayah mendukung alur cerita tanpa kontradiksi.
+- [ ] World baseline (Real vs Semi vs Full Fiction) confirmed by user.
+- [ ] Magic system has strict physical costs, limits, and backlash risks.
+- [ ] Racial tensions and social friction have logical historical foundations.
+- [ ] Guild economics and class bureaucracy create natural narrative tension.
+- [ ] Monster ecology and threat classifications support the plot without contradictions.

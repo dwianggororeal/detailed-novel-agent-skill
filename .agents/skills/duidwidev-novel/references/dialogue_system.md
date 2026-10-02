@@ -1,61 +1,47 @@
-# Panduan & Sistem Dialogue Maker (Integrasi Dialog Fleksibel ke Logline)
+# Dialogue Maker Guide (Fluid Dialogue Integration)
 
-Dokumen ini mendefinisikan standar penulisan **Dialog Organik & Luwes** yang disisipkan ke dalam beat **Logline**, dengan prinsip keluwesan frekuensi (*bisa nol, bisa satu, bisa saut-sautan*), pemanfaatan basa-basi alami (*meaningful small talk*), dan kepatuhan mutlak pada **Character Bible**.
+This document defines standards for crafting **Organic & Fluid Dialogue** embedded directly into **Loglines**, adhering to frequency flexibility, meaningful small talk, and the **Character Bible**.
 
 ---
 
-## 1. Prinsip Keluwesan Dialog (Fluid Dialogue Dynamics)
+## 1. Principle of Fluid Dialogue Dynamics
 
-Dialog tidak memiliki aturan kaku per-beat, melainkan mengalir secara alami sesuai kebutuhan adegan:
+Dialogue does not follow rigid line counts; it flows naturally based on the needs of the scene:
 
 ```mermaid
 graph TD
-    A[Kebutuhan Adegan pada Beat Logline] --> B{Apakah Butuh Dialog?}
-    B -->|Tidak Butuh: Momen Hening / Eksplorasi / Ketegangan Fisik| C[Beat Murni Aksi: 0 Dialog]
-    B -->|Butuh 1 Respons Spontan / Perintah| D[Beat 1 Baris Ucapan]
-    B -->|Interaksi Dinamis / Debat / Basa-Basi Akrab| E[Beat Multi-Dialog: Saut-Sautan 2-3 Baris]
+    A[Scene Requirement on Logline Beat] --> B{Is Dialogue Necessary?}
+    B -->|No: Pure Silence / Tension / Physical Action| C[Pure Action Beat: 0 Dialogue]
+    B -->|Yes: 1 Spontaneous Line / Command| D[Single-Line Dialogue Beat]
+    B -->|Yes: Dynamic Banter / Dispute / Small Talk| E[Multi-Line Dialogue Beat: 2+ Exchanges]
 ```
 
-### 3 Pola Frekuensi Dialog dalam Beat:
-1. **Beat Tanpa Dialog (0 Dialog):**
-   - Sangat dianjurkan untuk momen hening, pengamatan lingkungan, suasana tegang, atau aksi fisik cepat di mana kata-kata justru merusak atmosfer.
-2. **Beat Dialog Tunggal (1 Baris):**
-   - Satu instruksi singkat, celetukan spontan, atau reaksi emosional pendek.
-3. **Beat Multi-Dialog (Saut-Sautan 2+ Baris):**
-   - Interaksi percakapan dinamis di mana karakter langsung membalas dalam satu rangkaian beat yang sama (misal: saling bantah atau bercanda akrab).
+### 3 Dialogue Frequency Patterns:
+1. **Zero-Dialogue Beats (0 Lines):**
+   - Highly recommended for tense standoffs, environmental observation, or fast physical action where words would break immersion.
+2. **Single-Line Dialogue Beats (1 Line):**
+   - A short command, spontaneous outburst, or quiet realization.
+3. **Multi-Line Dialogue Beats (2+ Exchanges):**
+   - Rapid back-and-forth banter, casual teasing, or disputes within the same beat.
 
 ---
 
-## 2. Filosofi "Basa-Basi Itu Perlu" (Meaningful Small Talk)
+## 2. Philosophy: "Small Talk is Necessary"
 
 > [!TIP]
-> **Dialog digunakan hanya jika diperlukan (*If it's necessary only*), TETAPI basa-basi santai adalah kebutuhan nyata (*Small talk is necessary*).**
+> **Use dialogue only when necessary (*If it's necessary only*), BUT casual small talk is genuinely necessary (*Small talk is necessary*).**
 
-- **Basa-Basi yang Membangun Relasi (*Bonding Small Talk*):**
-  - Obrolan santai mengenai makanan, mengeluh dinginnya pagi, saling menggoda/meledek, atau perdebatan sepele adalah **kunci utama membangun keintiman (*chemistry*) karakter** agar terasa seperti makhluk hidup nyata, bukan sekadar bidak penggerak plot.
-- **Bukan Ceramah Plot Kaku:**
-  - Karakter tidak harus selalu membicarakan misi penyelamatan dunia atau misteri kuno. Obrolan remeh sehari-hari memperkuat ritme *slowburn*.
+- **Bonding Small Talk:**
+  - Arguing over food, complaining about cold mornings, playful teasing, and mundane discussions are **essential for building believable intimacy and chemistry**.
+- **Anti-Exposition (*Zero "As you know, Bob"*):**
+  - Never use dialogue to artificially lecture the reader about world lore.
 
 ---
 
-## 3. Kepatuhan Mutlak pada Character Bible
+## 3. Strict Character Bible Alignment
 
-Setiap tag dialog, intonasi, dan kosakata wajib merujuk langsung ke [Character Bible](../character_bible_creation/CHARACTER_BIBLE_TEMPLATE.md):
-
-| Aspek Karakter di Bible | Penerapan pada Dialog & Tag |
+| Aspect in Bible | Implementation in Dialogue |
 | :--- | :--- |
-| **Gaya Tutur (Voice Register)** | Karakter pendiam menggunakan kalimat pendek; karakter ramah menggunakan bahasa santai luwes. |
-| **Karakter Non-Verbal (e.g. Naga/Rendy)** | Tidak dipaksa bicara bahasa manusia; menggunakan ekspresi vokal alami (*dengkuran, dengusan, geraman*) dan bahasa tubuh. |
-| **Tag Dialog & Nada Bicara** | Tag mencerminkan kondisi psikologis karakter (misal: *berbisik ketus, mendengus pelan, menahan tawa*). |
-| **Pemicu Emosi / Trauma** | Ketika terpapar pemicu, nada bicara berubah drastis sesuai reaksi di Character Bible (tergagap, membisu, atau meninggi). |
-
----
-
-## 4. Checklist Kualitas Dialog Luwes
-
-Sebelum rangkaian dialog disahkan:
-- [ ] Dialog tidak dipaksakan ada di setiap beat (tersedia beat murni aksi/keheningan).
-- [ ] Tersedia beat multi-dialog saut-sautan saat terjadi interaksi akrab atau perdebatan.
-- [ ] Terdapat porsi basa-basi alami (*small talk*) untuk menghidupkan hubungan antar karakter.
-- [ ] Gaya bicara dan tag dialog selaras 100% dengan profil di Character Bible.
-- [ ] Bebas dari eksposisi ceramah kaku dan melodrama yang berlebihan.
+| **Voice Register** | Quiet characters speak laconically; warm characters speak comfortably. |
+| **Non-Verbal Characters (e.g. Dragons/Rendy)** | Communicate via natural vocalizations (*purrs, snorts, chirps, growls*) and body language. |
+| **Speech Tags** | Reflect psychological states (*whispered flatly, snorted softly, stifling a laugh*). |

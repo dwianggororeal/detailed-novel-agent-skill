@@ -1,95 +1,87 @@
-# Panduan Perancangan & Protokol Audit Character Bible
+# Character Bible Architecture & Audit Protocol
 
-Dokumen ini mendefinisikan standar **Branding Karakter Super-Kuat**, protokol **Wawancara Interaktif (Multi-Pilihan)**, dan mekanisme **Audit Keselarasan Lore Bible**.
+This document defines the standards for **Ultra-Strong Character Branding**, the **Interactive Multi-Choice Interview Protocol**, and **Lore Bible Alignment Audits**.
 
 ---
 
-## 1. Protokol Interaktif Agent: Wawancara Berpilihan (Guided Options)
+## 1. Agent Interview Protocol: Guided Multi-Choice Inquiries
 
-Saat mendampingi user membuat atau memperdalam Character Bible, agent **WAJIB memandu secara interaktif dengan memberikan opsi konkret** untuk mempermudah pengambilan keputusan.
+When assisting the user in developing a Character Bible, the agent **MUST proactively offer curated multiple-choice options** to streamline decision-making.
 
-### Contoh Format Pertanyaan Interaktif Agent ke User:
+### Example Interview Prompt:
 
 ```text
-[TAHAP PEMBENTUKAN KARAKTER: ICONIC HABIT & TRAUMA]
-Karakter: [Nama Karakter]
-Mari kita tentukan kebiasaan bawah sadar dan pemicu traumanya. Berikut beberapa opsi yang selaras dengan dunianya:
+[CHARACTER CREATION: ICONIC HABITS & TRAUMA TRIGGERS]
+Character: [Character Name]
+Let's define their subconscious micro-habits and trauma roots. Here are three lore-aligned options:
 
-Opsi A (Tipe Pragmatis & Waspada):
-- Gestur Khas: Selalu memeriksa tepi belatinya saat terdiam / berdiri dekat pintu keluar.
-- Pemicu Trauma: Suara besi beradu keras memicu serangan panik singkat akibat masa lalu sebagai tawanan.
+Option A (Pragmatic & Wary Archetype):
+- Micro-Habit: Continuously checks the edge of their dagger while standing near exits.
+- Trauma Trigger: The metallic clash of chains induces brief hyperventilation due to past captivity.
 
-Opsi B (Tipe Tertutup & Menahan Emosi):
-- Gestur Khas: Mengusap liontin patah di balik jubahnya saat ragu mengambil keputusan.
-- Pemicu Trauma: Bau asap tebal memicu kilas balik kebakaran desanya.
+Option B (Guarded & Stoic Archetype):
+- Micro-Habit: Rubs a broken pendant beneath their cloak when faced with morally grey choices.
+- Trauma Trigger: The smell of burning timber triggers flashbacks to their village raid.
 
-Opsi C (Kustom Sesuai Pilihan Anda):
-- Tuliskan ide spesifik Anda sendiri.
+Option C (Custom Input):
+- Enter your specific vision.
 
--> Manakah opsi yang paling sesuai dengan visi Anda untuk karakter ini?
+-> Which option best aligns with your character vision?
 ```
 
 ---
 
-## 2. 6 Pilar Branding Karakter Super-Kuat
+## 2. The 6 Core Character Branding Pillars
 
 ```mermaid
 graph TD
-    A[Karakter Kuat & Memorable] --> B[1. Iconic Lines & Anti-Cringe]
+    A[Ultra-Memorable Character] --> B[1. Iconic Lines & Anti-Cringe]
     A --> C[2. Iconic Micro-Behaviour]
-    A --> D[3. Visual Anchor / Wears]
-    A --> E[4. Triggers, Trauma & Memory]
-    A --> F[5. Dynamic Story Motivation]
-    A --> G[6. Moral Value & Red Lines]
+    A --> D[3. Visual Anchor & Wears]
+    A --> E[4. Dynamic Triggers & Trauma]
+    A --> F[5. Evolving Story Motivation]
+    A --> G[6. Moral Compass & Red Lines]
 ```
 
-### 1. Iconic Phrases / Lines (Anti-Cringe & Anti-Repetitif)
-- ❌ **Dilarang (Cringe & Maksa):** Mengulang jargon/catchphrase yang sama di setiap paragraf seperti karakter kartun dangkal.
-- ✅ **Standar Otentik:** Gaya tutur yang khas (misal: kalimat pendek bernada datar, jeda bicara yang berat, atau analogi spesifik yang hanya digunakan pada momen klimaks emosional).
+### 1. Iconic Phrases / Lines (Anti-Cringe & Anti-Repetitive)
+- ❌ **Prohibited (Cringe & Forced):** Repeating the exact same catchphrase every paragraph like a shallow cartoon caricature.
+- ✅ **Authentic Standard:** A distinct vocal cadence (e.g., laconic statements, deliberate pauses, or unique metaphors used exclusively during emotional climaxes).
 
-### 2. Iconic Behaviour (Kebiasaan Gestur Mikro)
-- Tindakan refleks tubuh yang memperlihatkan isi pikiran tanpa harus diucapkan lewat kata-kata (*Show, Don't Tell*).
+### 2. Iconic Behaviour (Subconscious Micro-Habits)
+- Involuntary physical reflexes that display internal thoughts without requiring explicit exposition (*Show, Don't Tell*).
 
 ### 3. Iconic Part of Body / Wears (Visual Anchor)
-- Satu siluet atau objek visual yang langsung membuat pembaca mengenali karakter tersebut (misal: jubah robek di bahu kiri, mata dengan pupil vertikal, sarung tangan tanpa jari berbahan kulit tebal).
+- A distinct visual silhouette or worn relic that makes the character immediately identifiable (e.g. frayed collar on a worn cloak, heterochromatic eyes, distinct horn geometry).
 
-### 4. Responses to Conditions (Trauma & Dynamic Triggers)
-- Karakter bukan robot; mereka memiliki titik rapuh yang berakar dari memori masa lalu. Saat terpapar pemicu tertentu, respon fisik/emosionalnya berubah drastis.
+### 4. Responses to Conditions (Trauma & Sensory Triggers)
+- Characters are not machines; they possess vulnerabilities rooted in past events that dynamically alter their physical reactions under specific stimuli.
 
-### 5. Dynamic Motivation (Tujuan yang Berkembang)
-- Tujuan karakter tidak boleh statis dari awal sampai akhir. Kemenangan, kehilangan, dan pengkhianatan harus mampu menggeser prioritas hidup mereka.
+### 5. Dynamic Motivation (Evolving Goals)
+- A character's drive must not remain static. Loss, victories, and betrayals must shift their short-term objectives and overarching desires over the course of the story.
 
-### 6. Moral Compass & Red Lines (Batas Moral yang Tak Pernah Dilanggar)
-- Karakter harus memiliki prinsip etik yang tegas: hal apa yang rela mereka korbankan, dan hal apa yang pantang mereka lakukan dalam keadaan terdesak sekalipun.
+### 6. Moral Compass & Red Lines (The Lines Never Crossed)
+- Concrete ethical principles detailing what the character is willing to sacrifice versus what they will adamantly refuse to do even when cornered.
 
 ---
 
-## 3. Sistem Audit Keselarasan terhadap Lore Bible (Lore Fit Check)
+## 3. Lore Bible Compatibility Audit (Lore Fit Clearance)
 
-Setiap profil karakter wajib lolos uji sinkronisasi dengan Lore Bible:
+Every character profile must pass strict lore synchronization checks:
 
 ```mermaid
 graph TD
-    A[Profil Karakter Diajukan] --> B{Cek 1: Asal Daerah & Ras}
-    B -->|Ras/Daerah Tidak Ada di Lore Bible| C[🚨 GAGAL: Invalid Origins]
-    B -->|Sesuai Geografi & Bestiary| D{Cek 2: Sistem Kekuatan & Batasan}
-    D -->|Kekuatan Melanggar Hard Limit / Overpowered| E[🚨 GAGAL: Magic System Violation]
-    D -->|Mematuhi Batasan & Cost| F{Cek 3: Relasi Faksi & Status Sosial}
-    F -->|Bertentangan dengan Politik Dunia| G[🚨 GAGAL: Faction Inconsistency]
-    F -->|Semua Elemen Selaras Penuh| H[✅ Lolos Audit Lore Bible]
+    A[Candidate Character Profile] --> B{Check 1: Race & Regional Origins}
+    B -->|Origins Contradict Lore Bible| C[🚨 REJECT: Invalid Origins]
+    B -->|Matches Geography & Bestiary| D{Check 2: Magic Limits & Costs}
+    D -->|Violates Hard Magic Limits / Overpowered| E[🚨 REJECT: Magic System Violation]
+    D -->|Obeys Costs & Limits| F{Check 3: Faction Relations & Social Tier}
+    F -->|Contradicts Political Lore| G[🚨 REJECT: Faction Inconsistency]
+    F -->|100% Lore Synced| H[✅ Lore Fit Cleared]
 ```
 
-### Checklist Audit Keselarasan Lore:
-1. **Pemeriksaan Ras & Fisiologi:** Apakah ras karakter tercatat di Lore Bible? Jika memiliki ciri fisik khusus (sisik, tanduk, mata), apakah sesuai anatomi ras di Lore?
-2. **Pemeriksaan Batasan Kekuatan:** Apakah skill/sihir karakter mematuhi aturan *cost/toll* yang ditetapkan di Bab Rules Lore Bible?
-3. **Pemeriksaan Latar Belakang Faksi:** Apakah afiliasi politik dan kelas sosial karakter cocok dengan dinamika faksi di Lore Bible?
-
----
-
-## 4. Checklist Pra-Finalisasi Character Bible
-
-- [ ] User telah dikonfirmasi dan memilih detail karakter melalui opsi interaktif.
-- [ ] Profil memiliki 6 pilar branding lengkap dan bebas catchphrase klise/cringe.
-- [ ] Reaksi trauma/memori memiliki akar cerita yang logis.
-- [ ] Tujuan karakter bersifat dinamis dan memiliki ruang untuk berkembang di alur cerita.
-- [ ] Karakter telah lolos uji keselarasan 100% terhadap [LORE_BIBLE_TEMPLATE.md](../lore_bible_creation/LORE_BIBLE_TEMPLATE.md).
+### Pre-Finalization Checklist:
+- [ ] User selected preferences through guided multi-choice options.
+- [ ] Profile contains all 6 branding pillars free of cringe clichés.
+- [ ] Trauma triggers stem from plausible backstory events.
+- [ ] Story motivations are dynamic with room for character growth.
+- [ ] Profile cleared 100% against the [Lore Bible](../lore_bible_creation/LORE_BIBLE_TEMPLATE.md).

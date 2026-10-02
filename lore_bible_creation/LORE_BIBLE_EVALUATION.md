@@ -1,42 +1,41 @@
-# Lembar Evaluasi & Standar Kelayakan Lore Bible
+# Lore Bible Evaluation & Logical Soundness Rubric
 
-Dokumen ini digunakan untuk menguji dan menilai tingkat kematangan, ketahanan logika, dan kesiapan **Lore Bible** sebelum digunakan sebagai fondasi penulisan cerita.
+This document assesses the logical maturity, internal consistency, and narrative readiness of the **Lore Bible** before writing begins.
 
 ---
 
-## 1. Rubrik Evaluasi Kualitas Worldbuilding (Skala 1 - 5)
+## 1. Worldbuilding Quality Rubric (Scale 1 - 5)
 
-| Dimensi Penilaian | Bobot | Deskripsi | Standar Minimal Kelulusan (4/5) |
+| Dimension | Weight | Description | Minimum Passing Standard (4/5) |
 | :--- | :---: | :--- | :--- |
-| **1. Konsistensi Internal (Internal Consistency)** | 30% | Dunia terbebas dari kontradiksi logis antara sihir, faksi, dan sejarah. | 0 kontradiksi hukum alam, batasan kekuatan terdefinisi mutlak. |
-| **2. Kausalitas & Keterhubungan (Causality)** | 25% | Hubungan sebab-akibat yang kuat antara geografi, ekonomi, sejarah, dan konflik saat ini. | Peristiwa masa kini berakar logis dari sejarah masa lalu. |
-| **3. Kejelasan Batasan & Biaya (Costs & Limits)** | 25% | Sistem kekuatan memiliki harga dan batasan yang jelas, bukan sekadar "bisa segalanya". | Tidak ada kemampuan deus-ex-machina tanpa konsekuensi/toll. |
-| **4. Kesiapan Operasional (Usability for Writing)** | 20% | Struktur dokumen mudah dirujuk oleh penulis/agent saat menyusun plot atau logline. | Informasi modular, terindeks rapi, dan mudah dicari. |
+| **1. Internal Consistency** | 30% | The world is free from logical contradictions across magic, factions, and history. | 0 magic system violations; absolute limits defined. |
+| **2. Connected Causality** | 25% | Strong cause-and-effect ties between geography, economy, history, and current conflicts. | Present circumstances stem logically from past events. |
+| **3. Hard Limits & Costs** | 25% | Energy/items have tangible prices and clear boundaries (*no deus ex machina*). | No unbounded capabilities without proportionate tolls. |
+| **4. Operational Usability** | 20% | Documentation is modular, well-indexed, and effortless to reference during drafting. | Structured information that prevents cognitive overload. |
 
 ---
 
-## 2. Formulir Scorecard Lore Bible
+## 2. Lore Bible Scorecard Form
 
 ```text
-Nama Dunia / Proyek : [Nama Proyek]
-Tanggal Evaluasi    : [YYYY-MM-DD]
-Evaluator           : [Nama / Agent]
+Universe / Project Name : [Project Name]
+Evaluation Date         : [YYYY-MM-DD]
+Evaluator               : [Agent / User]
 
-[SKOR PENILAIAN]
-1. Konsistensi Internal (30%)     : [Skor 1-5] -> Poin: ...
-2. Kausalitas & Keterhubungan (25%): [Skor 1-5] -> Poin: ...
-3. Kejelasan Batasan (25%)        : [Skor 1-5] -> Poin: ...
-4. Kesiapan Operasional (20%)     : [Skor 1-5] -> Poin: ...
+[SCORE BREAKDOWN]
+1. Internal Consistency (30%)   : [Score 1-5] -> Points: ...
+2. Connected Causality (25%)    : [Score 1-5] -> Points: ...
+3. Hard Limits & Costs (25%)    : [Score 1-5] -> Points: ...
+4. Operational Usability (20%)  : [Score 1-5] -> Points: ...
 
-TOTAL SKOR AKHIR: [Skor % / 100%]
-STATUS KELAYAKAN: [READY / NEEDS REVISION]
+TOTAL SCORE: [Score % / 100%]
+STATUS     : [APPROVED / NEEDS REVISION]
 ```
 
 ---
 
-## 3. Stress-Test Skenario (Uji Ketahanan Logika Dunia)
+## 3. World Logic Stress Tests
 
-Uji Lore Bible Anda dengan 3 pertanyaan ekstrem ini:
-1. **The Economy Breaker Test:** Apakah ada sihir atau artefak yang bisa menciptakan sumber daya tak terbatas tanpa biaya (yang akan menghancurkan sistem ekonomi dunia)?
-2. **The Invincible Villain Test:** Jika tokoh antagonis memiliki kekuatan tertentu, apakah aturan dunia menyediakan kelemahan yang logis tanpa harus mengandalkan kebetulan murni?
-3. **The Travel Time Test:** Apakah waktu perjalanan antar lokasi di peta logis saat karakter harus menempuh rute tersebut dalam logline cerita?
+1. **The Economy Breaker Test:** Can any magic or artifact generate infinite resources without cost (collapsing the world's economic system)?
+2. **The Invincible Antagonist Test:** If an antagonist possesses specific abilities, does the magic system provide a logical counter without relying on pure plot armor?
+3. **The Travel Feasibility Test:** Are travel times between map locations realistic when characters journey in the loglines?

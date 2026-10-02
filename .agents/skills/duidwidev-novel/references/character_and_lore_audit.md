@@ -1,100 +1,72 @@
-# Standar & Protokol Audit Character & Lore Bible
+# Character & Lore Bible Audit Protocol
 
-Dokumen ini mendefinisikan aturan evaluasi dan protokol audit untuk memastikan setiap beat logline maupun draf cerita tetap konsisten dengan **Character Bible** dan **Lore Bible** (yang disimpan secara terpisah sebagai dokumen referensi eksternal).
-
----
-
-## 1. Prinsip Pemisahan Dokumen (Separation of Concerns)
-
-- **Character Bible & Lore Bible adalah Dokumen Terpisah:** Dokumen bible disimpan di luar skill dan tidak di-generate/di-hardcode langsung ke dalam file skill.
-- **Peran Skill:** Skill berfungsi sebagai *engine* yang membaca, mengaudit, dan memvalidasi apakah logline/cerita sesuai dengan bible yang disediakan.
+This document defines the evaluation protocols ensuring every beat and scene remains consistent with the **Character Bible** and **Lore Bible** (which are maintained as separate external reference files).
 
 ---
 
-## 2. Sistem Audit Karakter (Character Integrity & Evolution)
+## 1. Principle: Separation of Concerns
+
+- **External Reference Files:** Character and Lore Bibles are standalone reference files and must NOT be hardcoded into skill generation.
+- **Skill Engine Role:** The skill acts as an evaluator validating whether drafted loglines conform to these external bibles.
+
+---
+
+## 2. Character Integrity & Evolution Audits
 
 ```mermaid
 graph TD
-    A[Aksi / Reaksi Karakter pada Beat] --> B{Cek Bible Karakter}
-    B -->|Sesuai Karakteristik Asli| C[✅ Lolos Audit Karakter]
-    B -->|Sikap / Sifat Berubah Drastis| D{Apakah ada pemicu / alasan jelas di alur?}
-    D -->|Tidak Ada Alasan / OOC Acak| E[🚨 REJECT: Karakter Out-of-Character!]
-    D -->|Ada Kejadian Pemicu yang Di-address| F[✅ Lolos: Perkembangan Karakter Sah]
+    A[Character Action in Beat] --> B{Check Character Bible}
+    B -->|Consistent with Profile| C[✅ Character Audit Cleared]
+    B -->|Sudden Personality / Attitude Shift| D{Is there a clear in-story trigger?}
+    D -->|No Cause / Random OOC| E[🚨 REJECT: Out-of-Character Action]
+    D -->|Addressed Trigger Event| F[✅ Cleared: Justified Progression]
 ```
 
-### Aturan Audit Karakter:
-1. **Pemeriksaan Out-of-Character (Anti-OOC):**
-   - Respon emosional, gaya bicara, dan kebiasaan karakter harus selalu mencerminkan profil di Character Bible.
-2. **Aturan Perubahan Sikap yang Sah (*Justified Progression*):**
-   - Karakter **boleh** berubah sikap (misal: dari penakut menjadi berani, dari ceria menjadi dingin, atau membuka diri).
-   - **Syarat Wajib:** Perubahan tersebut **harus memiliki alasan pemicu yang jelas dan dialamatkan (*addressed*) secara eksplisit** di dalam peristiwa cerita, bukan terjadi secara mendadak tanpa sebab.
+### Character Audit Rules:
+1. **Anti-OOC (Out of Character) Verification:** Emotional reactions, speech patterns, and habits must reflect the Character Bible profile.
+2. **Justified Progression Rule:** Characters *may* evolve in personality, provided changes possess an **explicit in-story trigger that is directly addressed**.
 
 ---
 
-## 3. Sistem Audit Dunia & Cerita (Lore & Worldbuilding Integrity)
+## 3. The 5 Mandatory Rules for Adding Named Characters
 
-1. **Konsistensi Hukum Dunia:**
-   - Aturan sihir, teknologi, geografi, faksi, dan batasan kekuatan tidak boleh bertentangan dengan Lore Bible.
-2. **Ekspansi Lore Bertahap:**
-   - Penambahan detail latar dunia baru diperbolehkan selama tidak merevisi fakta yang sudah ditetapkan di bab/lore sebelumnya tanpa alasan logis (*retcon*).
-
----
-
-## 4. Protokol Penambahan Karakter Bernama Baru (*Named Character Rules*)
-
-Untuk mencegah cerita menjadi dangkal akibat terlalu banyak karakter numpang lewat (*character bloat*), penambahan karakter bernama baru wajib mematuhi 5 gerbang protokol berikut:
+To prevent character bloat and shallow storytelling, adding a new named character must pass all 5 gates:
 
 ```mermaid
 graph TD
-    A[Kebutuhan Menambah Karakter Bernama] --> B{Gerbang 1: Izin User}
-    B -->|User Belum Menyetujui| C[🚨 STOP: Wajib Tanya User Terlebih Dahulu]
-    B -->|User Menyetujui| D{Gerbang 2: Kontribusi Cerita}
-    D -->|Karakter Kosong / Hiasan Saja| E[🚨 REJECT: Jadikan NPC Tanpa Nama Saja]
-    D -->|Punya Peran Nyata| F{Gerbang 3: Rencana Min. 5x Kemunculan}
-    F -->|Hanya Muncul 1-2 Kali| G[🚨 REJECT: Tidak Layak Diberi Nama Unik]
-    F -->|Minimal 5x Muncul Sepanjang Cerita| H{Gerbang 4: Kedalaman Karakter}
-    H -->|Terlalu Banyak Karakter Baru Sekaligus| I[🚨 STOP: Eksplorasi Karakter Lama Dulu]
-    H -->|Fokus & Mendalam| J[✅ Karakter Bernama Resmi Diterima]
+    A[Need to Add a Named Character] --> B{Gate 1: User Permission}
+    B -->|No User Approval| C[🚨 STOP: Must Ask User First]
+    B -->|User Approves| D{Gate 2: Story Contribution}
+    D -->|Empty Prop / Pure Background| E[🚨 REJECT: Keep as Unnamed NPC]
+    D -->|Tangible Narrative Role| F{Gate 3: Min. 5 Occurrences}
+    F -->|Appears only 1-2 Times| G[🚨 REJECT: Unworthy of Unique Name]
+    F -->|Planned Min. 5 Appearances| H{Gate 4: Depth over Quantity}
+    H -->|Too Many New Names at Once| I[🚨 STOP: Deepen Existing Cast First]
+    H -->|Focused Depth| J[✅ Named Character Approved]
 ```
 
-### 5 Syarat Wajib Karakter Bernama:
-
-| Gerbang | Syarat | Penjelasan Detail |
-| :---: | :--- | :--- |
-| **1** | **Wajib Tanya & Minta Izin User** | Agent **DILARANG** menambahkan karakter bernama secara mandiri. Agent wajib mengusulkan dan bertanya kepada user terlebih dahulu sebelum karakter tersebut dimasukkan ke dalam beat logline. |
-| **2** | **Kontribusi Nyata terhadap Cerita** | Karakter harus memiliki peran fungsional atau emosional (meskipun peran kecil seperti penjaga toko langganan, pandai besi, atau mata-mata). Tidak boleh sekadar figuran kosong. |
-| **3** | **Minimal 5 Kali Kemunculan (*Min. 5 Appearances*)** | Karakter bernama harus direncanakan muncul **minimal 5 kali** di dalam alur cerita. Kemunculan boleh berjarak jauh (misal: muncul di awal bab, di pertengahan, dan di akhir cerita). |
-| **4** | **Karakter Non-Verbal Sah** | Karakter **tidak harus bisa berbicara**. Hewan pendamping, naga, monster pelindung, roh bisu, atau golem tetap sah sebagai karakter bernama jika memenuhi syarat lainnya. |
-| **5** | **Utamakan Kedalaman (*Depth over Quantity*)** | **Dilarang menambahkan banyak karakter bernama sekaligus dalam satu waktu.** Berikan ruang dan eksplorasi mendalam untuk karakter yang sudah ada sebelum memperkenalkan figur baru. |
+### 5 Mandatory Gates:
+1. 🛑 **Mandatory User Permission:** The agent is strictly forbidden from inventing named characters without explicit user approval.
+2. 📌 **Tangible Contribution:** Must serve a functional or emotional role (even minor characters like a regular shopkeeper).
+3. 📌 **Minimum 5 Appearances:** Must have a planned minimum of 5 appearances across the story (can be distant, e.g. early, middle, finale).
+4. 📌 **Non-Verbal Characters Allowed:** Mute characters, dragons, companion beasts, or spirits are fully valid as named characters.
+5. 📌 **Depth Over Quantity:** Prohibit dumping multiple named characters at once. Deepen the existing cast first.
 
 ---
 
-## 5. Format Standar Mengajukan Karakter Baru ke User
-
-Jika dalam penyusunan logline dirasa membutuhkan karakter bernama baru, gunakan format konfirmasi berikut kepada user:
+## 4. Standard Proposal Format for Proposing New Characters
 
 ```text
-[USULAN KARAKTER BERNAMA BARU]
-- Nama Karakter: [Nama]
-- Peran / Kontribusi: [Apa dampaknya terhadap cerita / hubungan dengan MC]
-- Rencana Kemunculan (Min. 5x): 
-  1. Kemunculan 1: [Bab / Situasi]
-  2. Kemunculan 2: [Bab / Situasi]
-  3. Kemunculan 3: [Bab / Situasi]
-  4. Kemunculan 4: [Bab / Situasi]
-  5. Kemunculan 5: [Bab / Situasi]
-- Karakteristik / Sifat: [Deskripsi ringkas, verbal atau non-verbal]
+[PROPOSED NEW NAMED CHARACTER]
+- Character Name : [Name]
+- Story Role     : [Functional impact & relationship with protagonist]
+- Planned 5x Occurrences:
+  1. Scene 1: [Chapter / Situation]
+  2. Scene 2: [Chapter / Situation]
+  3. Scene 3: [Chapter / Situation]
+  4. Scene 4: [Chapter / Situation]
+  5. Scene 5: [Chapter / Situation]
+- Key Traits     : [Brief description, verbal or non-verbal]
 
--> Apakah Anda menyetujui penambahan karakter ini ke dalam cerita?
+-> Do you approve adding this character to the story?
 ```
-
----
-
-## 6. Checklist Audit Akhir (Pre-Approval Checklist)
-
-- [ ] Aksi setiap karakter selaras dengan profil di Character Bible.
-- [ ] Jika ada perubahan perilaku/sikap, alasan dan pemicunya tercatat jelas di dalam peristiwa cerita.
-- [ ] Peristiwa cerita tidak menabrak aturan di Lore Bible.
-- [ ] Tidak ada karakter bernama baru yang dimasukkan tanpa konfirmasi/izin user.
-- [ ] Setiap karakter bernama baru memiliki peran nyata dan komitmen minimal 5 kali kemunculan.
-- [ ] Jumlah karakter tetap terkelola tanpa *bloat* (mengutamakan kedalaman karakter yang ada).

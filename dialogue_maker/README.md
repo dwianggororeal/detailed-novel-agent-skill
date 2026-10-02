@@ -1,23 +1,18 @@
-# Indeks Dialogue Maker (Integrasi Dialog Luwes ke Logline)
+# Dialogue Maker Index (Fluid Dialogue Integration)
 
-Folder ini berisi seluruh framework, template, dan sistem evaluasi untuk menyusun **Dialog Otentik & Luwes** yang disisipkan langsung ke dalam beat **Logline** berdasarkan profil **Character Bible** dan konteks suasana logline.
+This directory contains the frameworks, templates, and evaluation rubrics for infusing **Authentic & Fluid Dialogue** directly into **Logline Beats** based on the **Character Bible**.
 
 ---
 
-## 📚 Daftar Dokumen di Folder Ini
+## 📚 Documents in this Directory
 
 1. **[DIALOGUE_SYSTEM_AND_INTEGRATION.md](./DIALOGUE_SYSTEM_AND_INTEGRATION.md)**
-   - **Prinsip Keluwesan Dialog:** Fleksibilitas kuantitas (beat bisa 0 dialog, 1 ucapan singkat, atau multi-dialog saut-sautan).
-   - **Filosofi Basa-Basi Diperlukan (*Meaningful Small Talk*):** Pemanfaatan celotehan santai untuk membangun keintiman dan *chemistry* karakter.
-   - **Kepatuhan Mutlak Character Bible:** Penyesuaian gaya tutur, tag dialog, intonasi, dan ekspresi vokal non-verbal (naga/makhluk).
-   - **4 Pilar Kualitas Dialog:** *Voice Distinctiveness, Anti-Exposition, Anti-Cringe, dan Subtext*.
+   - **Fluid Dialogue Dynamics:** Flexible frequency (0 dialogue beats, 1-line reactions, or multi-line natural banter).
+   - **Meaningful Small Talk:** Daily casual banter as an essential requirement for building organic character chemistry.
+   - **Character Bible Alignment:** Strict voice registers, speech tags, and non-verbal creature lines (e.g. dragons).
 
 2. **[DIALOGUE_BEAT_TEMPLATE.md](./DIALOGUE_BEAT_TEMPLATE.md)**
-   - Template resmi logline berdialog luwes dengan 3 variasi format:
-     - Pola A: Beat Murni Aksi / Keheningan (0 Dialog).
-     - Pola B: Beat Dialog Tunggal (1 Baris).
-     - Pola C: Beat Multi-Dialog / Saut-Sautan Basa-Basi Akrab (2+ Baris).
-   - Contoh sekuensial interaksi Bab 1 (Raya & Rendy si naga).
+   - Master template with concrete sequential examples (Chapter 1 with Raya & Rendy the dragon).
 
 3. **[DIALOGUE_EVALUATION.md](./DIALOGUE_EVALUATION.md)**
-   - Rubrik penilaian kualitas dialog (Kekhasan Suara, Integrasi Aksi, Subteks, dan Keselarasan Mood) lengkap dengan Scorecard dan 3 Stress-Test.
+   - Dialogue evaluation rubric (Voice Distinctiveness, Action Anchoring, Subtext, and Mood Alignment) with Scorecard and 3 Stress Tests.

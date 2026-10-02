@@ -1,104 +1,95 @@
-# Standar & Sistem Logline (Slowburn Micro-Outline)
+# Standard Logline System (Slowburn Micro-Outlines)
 
-Dokumen ini mendefinisikan standar format **Logline**, sistem **Kategori Variabel Mood**, aturan **Gaya Bahasa & Anti-AI Slop**, serta mekanisme **Audit Anomali Emosi** untuk menjaga cerita tetap runtut, hidup, dan jernih.
-
----
-
-## 1. Definisi & Filosofi Logline
-
-**Logline** adalah:
-- **Mikro-outline berurutan (sequential beat-by-beat)** per kalimat yang mendeskripsikan gestur, aksi fisik, dan interaksi lingkungan secara runtut.
-- **Fleksibel & Terkontrol oleh User:** Dieksekusi **bab per bab** sesuai pilihan user (misal: hanya Bab 1 terlebih dahulu). User bebas menentukan tingkat kedalaman/skala beat yang diinginkan (contoh: 30 beat ringkas, 50 beat sedang, hingga 100+ beat slowburn).
-- **Format 1 Kalimat Konkret per Beat:** Setiap beat dirumuskan dalam satu kalimat aksi/peristiwa nyata yang jelas, terbebas dari ringkasan abstrak.
-- Menggunakan **Variabel Mood Baku** dan **Diksi Lugas (Anti-AI Slop)** agar alur tidak kaku, tidak berbunga-bunga, dan mudah dipahami.
-
+This document defines the format standards for **Micro-Loglines**, the **8 Standardized Mood Variables**, **Anti-AI Slop Rules**, and **Mood Anomaly Audits** to maintain an organic slowburn rhythm.
 
 ---
 
-## 2. Standar Diksi & Gaya Bahasa (Anti-AI Slop Rules)
+## 1. Definition & Philosophy of Loglines
 
-Bagian ini mengatur pemilihan kata dan gaya penulisan agar deskripsi beat selalu jernih, alami, dan tidak terdengar seperti "terjemahan mesin kaku".
-
-### A. Anti-AI Slop & Anti-Purple Prose
-- **Dilarang menggunakan kata/frasa puitis yang klise atau sok berat:**
-  - ❌ *Hindari:* "merajut keheningan yang mencekam", "menembus relung kalbu", "simfoni angin pagi", "denting waktu yang merayap", "tapestry of emotions".
-  - ✅ *Gunakan aksi/kondisi fisik nyata:* "suasana kamar hening tanpa suara", "Raya menghela napas panjang", "Rendy mendengus pelan".
-- **Gunakan kata yang konkret, jelas, dan tidak ambigu:**
-  Setiap kalimat harus langsung menunjukkan **siapa** yang bergerak, **apa** yang disentuh/dilihat, dan **bagaimana** reaksinya secara fisik.
-
-### B. Penyesuaian Gaya Bahasa (User Register Mirroring)
-- **Ikuti gaya bahasa yang diinginkan user:**
-  - Jika user meminta gaya **baku/formal**: Gunakan tata kalimat rapi dan kosakata formal yang tetap lugas (bukan sastra kuno yang rumit).
-  - Jika user menggunakan/meminta gaya **natural/santai/campuran**: Gunakan bahasa sehari-hari yang mengalir wajar (*cuddly*, *pouty*, *ngelus*, *merajuk*, *ngambek*) tanpa memaksakan istilah asing yang kaku.
-- **Prinsip Utama:** *Sederhana, to-the-point, detail pada aksi, dan mudah dibayangkan.*
+**Loglines** in this framework are:
+- **Sequential Beat-by-Beat Micro-Outlines** where each beat represents a single concrete physical action, micro-gesture, or environmental interaction.
+- **Flexible & User-Controlled:** Executed **chapter by chapter** on demand. The user freely dictates granularity (e.g. 30 fast beats, 60 standard beats, or 100+ slowburn beats).
+- **1 Concrete Sentence per Beat:** Every beat is formulated as a single, unambiguous action sentence free from abstract summaries.
+- Governed by **8 Standardized Mood Tokens** and **Plain Diction** to eliminate wooden, purple AI slop.
 
 ---
 
-## 3. Taksonomi Variabel Mood (Standardized Mood Tokens)
+## 2. Plain Diction & Anti-AI Slop Rules
 
-Gunakan 8 kategori variabel terstandar berikut untuk menjaga konsistensi:
+### A. Anti-AI Slop & Zero Purple Prose
+- **Prohibited Abstract / Purple Clichés:**
+  - ❌ *Banned:* "weaving a tapestry of silence", "piercing the depths of the soul", "symphony of morning winds", "time creeping like a shadow".
+  - ✅ *Use Physical Reality:* "the bedroom was completely silent", "Raya let out a long sigh", "Rendy snorted softly".
+- **Concrete, Plain & Unambiguous Verbs:**
+  Every sentence must clearly indicate **who** moved, **what** was touched or seen, and **how** their body reacted.
 
-| Kategori Mood | Token Variabel | Definisi & Nuansa | Contoh Situasi |
+### B. User Register Mirroring
+- **Match the desired register:**
+  - *Formal/Clean:* Proper sentence structure without archaic or pretentious vocabulary.
+  - *Natural/Colloquial:* Natural conversational phrasing (*cuddly, pouty, stroked, sulking*) without forcing unnatural phrasing.
+
+---
+
+## 3. The 8 Standardized Mood Tokens
+
+| Category | Mood Token | Definition & Nuance | Example Scenario |
 | :--- | :---: | :--- | :--- |
-| **1. Netral / Santai** | `CALM` | Suasana stabil, damai, ritme lambat, tidak ada tekanan. | Pagi hari biasa, menikmati teh, membaca buku. |
-| **2. Kehangatan / Kedekatan** | `WARMTH` | Penuh kasih sayang, manja, intim, akrab, protektif. | Rendy memeluk Raya, momen manis bersama. |
-| **3. Waspada / Tanda Tanya** | `UNEASE` | Ada firasat ganjil, curiga, tanda-tanda bahaya tersembunyi. | Suara gemersik aneh di semak, tatapan mencurigakan. |
-| **4. Ketegangan / Konflik** | `TENSE` | Tekanan tinggi, adu argumen, ancaman nyata, bahaya mendekat. | Dikejar musuh, adu pedang, perdebatan sengit. |
-| **5. Kepanikan / Syok** | `PANIC` | Kejutan ekstrem, kekacauan instan, hidup-mati. | Serangan mendadak, ledakan, terluka parah. |
-| **6. De-eskalasi / Pelegaan** | `RELIEF` | Ketegangan mereda, hembusan napas lega, situasi aman. | Bahaya lewat, luka selesai diobati. |
-| **7. Kesedihan / Melankolis** | `MELANCHOLY` | Duka, kehilangan, kesepian, refleksi batin mendalam. | Mengingat masa lalu tragis, perpisahan. |
-| **8. Kemenangan / Sukacita** | `TRIUMPH` | Kepuasan, pencapaian target, kebahagiaan bersama. | Berhasil menyelesaikan misi, selebrasi. |
+| **1. Neutral / Calm** | `CALM` | Stable, slow-paced, tranquil, zero pressure. | Typical morning, drinking tea, reading a tome. |
+| **2. Warmth / Intimacy** | `WARMTH` | Affectionate, cuddly, familial, protective. | Rendy hugging Raya, tender bonding moment. |
+| **3. Unease / Suspicion** | `UNEASE` | Ominous premonition, suspicion, hidden danger. | Strange rustling in brush, suspicious glance. |
+| **4. Tension / Conflict** | `TENSE` | High stakes, impending danger, heated dispute. | Pursued by guards, drawn blades, intense argument. |
+| **5. Panic / Shock** | `PANIC` | Extreme shock, sudden crisis, life-or-death. | Ambush attack, explosion, dragon severely wounded. |
+| **6. Relief / De-escalation**| `RELIEF` | Danger passes, deep breath of relief, safe. | Guard patrol walks past, wound successfully bandaged. |
+| **7. Melancholy / Grief** | `MELANCHOLY` | Loss, sorrow, quiet introspection, loneliness. | Remembering fallen kin, bittersweet farewell. |
+| **8. Triumph / Joy** | `TRIUMPH` | Satisfaction, milestone reached, celebration. | Mission accomplished, shared victory. |
 
 ---
 
-## 4. Format Penulisan Logline Baku
+## 4. Standard Beat Syntax
 
 ```text
-mood : [TOKEN_VARIABEL], place : [Lokasi Spesifik]
-[Nomor]. [Kalimat aksi fisik / gestur / interaksi konkret yang jelas dan bebas slop]
+mood : [MOOD_TOKEN], place : [SPECIFIC_LOCATION]
+[Number]. [Concrete physical action / gesture / environmental interaction sentence]
 ```
 
-### Contoh Penerapan (Bahasa Natural & Jelas):
+### Example Beat Sequence (Natural & Clear):
 ```text
-mood : CALM, place : Kamar tidur Raya / Atas ranjang
-1. Sinar matahari pagi mulai masuk dari celah jendela, menerangi kasur tempat Raya dan Rendy tidur.
+mood : CALM, place : Raya's Bedroom / Bed
+1. Morning sunlight filtered through the window blinds, illuminating the thick blanket where Raya and Rendy were asleep.
 
-mood : WARMTH, place : Kamar tidur Raya / Atas ranjang
-2. Rendy masih memeluk Raya erat-erat dengan kaki depannya, wajahnya cemberut manja menolak bangun.
+mood : WARMTH, place : Raya's Bedroom / Bed
+2. Rendy clung tightly to Raya's chest with his forelegs, his snout scrunched up in a pout, refusing to get up.
 
-mood : WARMTH, place : Kamar tidur Raya / Atas ranjang
-3. Raya mengelus punggung sisik Rendy perlahan, mencoba membujuk agar cengkeramannya melonggar.
+mood : WARMTH, place : Raya's Bedroom / Bed
+3. Raya gently scratched the smooth scales behind Rendy's horns to coax him into loosening his grip.
 
-mood : UNEASE, place : Kamar tidur Raya / Dekat jendela
-4. Telinga Rendy tiba-tiba bergerak tegak ke arah pintu luar setelah mendengar suara derap langkah berat mendekat.
+mood : UNEASE, place : Raya's Bedroom / Near the Window
+4. Rendy's ears suddenly perked up toward the front gate as heavy armored footsteps echoed from outside.
 ```
 
 ---
 
-## 5. Sistem Audit Anomali Mood & Kontinuitas
-
-Audit ini memeriksa alur logline dari awal sampai akhir sebelum disetujui:
+## 5. Mood Anomaly & Continuity Audits
 
 ```mermaid
 graph TD
     A[Beat N] --> B[Beat N+1]
-    B --> C{Cek 1: Bahasa & Diksi}
-    C -->|Ada Frasa AI Slop / Puitis Rumit| D[🚨 REJECT: Ganti dengan Aksi Nyata & Jelas]
-    C -->|Bahasa Lugas & Jelas| E{Cek 2: Sandwich Anomaly}
-    E -->|TENSE -> HAPPY -> TENSE| F[🚨 REJECT: Anomali Mood Terdeteksi]
-    E -->|Lolos| G{Cek 3: Place & Trigger}
-    G -->|Tempat Lompat Tanpa Jalan / Emosi Lompat Tanpa Trigger| H[🚨 REJECT: Unearned Jump]
-    G -->|Lolos Semua| I[✅ Lolos Audit]
+    B --> C{Check 1: Diction & Plain Language}
+    C -->|Purple Prose / Abstract Metaphors| D[🚨 REJECT: Replace with Concrete Action]
+    C -->|Grounded & Plain| E{Check 2: Sandwich Anomaly}
+    E -->|TENSE -> HAPPY -> TENSE| F[🚨 REJECT: Mood Whiplash Detected]
+    E -->|Valid Flow| G{Check 3: Place & Trigger}
+    G -->|Spatial Jump / Unearned Mood Leap| H[🚨 REJECT: Unearned Jump]
+    G -->|All Passed| I[✅ Beat Cleared]
 ```
 
-### Aturan Anomali:
-1. **The Sandwich Anomaly (Dilarang):** Pola `[TENSE] -> [TENSE] -> [TRIUMPH] -> [TENSE]` tanpa alasan logis langsung ditolak.
-2. **The Unearned Leap (Dilarang):** Lompatan dari situasi santai (`CALM`) ke darurat hidup-mati (`PANIC`) tanpa kalimat pemicu yang konkret di dalam beat.
-3. **The Purple Prose Glitch (Dilarang):** Penggunaan metafora abstrak yang tidak memiliki wujud fisik (contoh: "jiwanya terkoyak oleh sunyi").
+### Prohibited Anomaly Patterns:
+1. **The Sandwich Anomaly (Prohibited):** `[TENSE] -> [TENSE] -> [TRIUMPH] -> [TENSE]` without a logical cause is flagged as an invalid glitch.
+2. **The Unearned Leap (Prohibited):** Jumping from `CALM` directly to `PANIC` without an explicit trigger event recorded in the beat.
 
 ---
 
-## 6. Matriks Transisi Mood yang Sah
+## 6. Valid Mood Transition Matrix
 
 ```text
 CALM        ──► WARMTH / UNEASE / MELANCHOLY
@@ -113,20 +104,10 @@ TRIUMPH     ──► WARMTH / CALM / UNEASE
 
 ---
 
-## 7. Checklist Validasi Beat Logline
+## 7. Beat Validation Checklist
 
-Setiap pembuatan batch logline wajib memenuhi checklist ini:
-- [ ] **Bebas AI Slop:** Tidak ada metafora puitis yang berlebihan/klise; kata-kata mudah dipahami.
-- [ ] **Diksi Jelas & Konkret:** Subjek, objek, dan aksinya tidak multitafsir.
-- [ ] **Adaptif:** Nada bahasa mengikuti gaya user (baku rapi atau santai wajar).
-- [ ] **Bebas Anomali Mood:** Alur emosi mengalir sesuai matriks transisi tanpa lonjakan sandwich.
-- [ ] **Kontinuitas Tempat:** Setiap perpindahan ruangan/tempat tercatat melalui aksi fisik.
-- [ ] **Integrasi Bible:** Selaras dengan aturan karakter & lore pada [CHARACTER_AND_LORE_AUDIT.md](./CHARACTER_AND_LORE_AUDIT.md).
-
----
-
-## 8. Dokumen Terkait & Audit Tambahan
-
-- **Audit Karakter & Lore:** Baca panduan lengkap konsistensi bible dan aturan penambahan karakter bernama di [CHARACTER_AND_LORE_AUDIT.md](./CHARACTER_AND_LORE_AUDIT.md).
-- **Panduan Evaluasi Skill:** Lihat [SKILL_EVALUATION_GUIDE.md](./SKILL_EVALUATION_GUIDE.md).
-
+- [ ] **Zero AI Slop:** No abstract purple metaphors; clear, accessible verbs.
+- [ ] **Unambiguous Physical Action:** Subject, object, and physical action are unmistakable.
+- [ ] **Zero Mood Anomalies:** Flow adheres to the transition matrix without sandwich spikes.
+- [ ] **Spatial Continuity:** Every room or location change is anchored by a movement action.
+- [ ] **Bible Alignment:** Complies with [CHARACTER_AND_LORE_AUDIT.md](./CHARACTER_AND_LORE_AUDIT.md).
